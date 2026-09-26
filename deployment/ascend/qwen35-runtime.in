@@ -1,0 +1,43 @@
+# Qwen3.5 snapshot + CANN 9.0.0, Linux aarch64, CPython 3.10.
+# Compile to qwen35-linux-aarch64-py310.lock before distribution.
+pip==25.3
+setuptools==78.1.1
+wheel==0.45.1
+torch==2.7.1
+torch-npu==2.7.1.post4
+torchvision==0.22.1
+torchdata==0.11.0
+# CANN 9.0.0 uses 3.2.1 from the Ascend official extra index.
+triton==3.5.0
+triton-ascend==3.2.1
+# Triton 3.2.1 runtime pin; overrides Core 0.12.1's legacy <=1.26.0 metadata.
+numpy==1.26.4
+pytest-xdist==3.6.1
+transformers==5.2.0
+accelerate==1.2.0
+peft==0.18.1
+datasets==3.6.0
+pandas==2.0.3
+Pillow>=10,<13
+av==15.1.0
+pydantic>=2.10.4,<3
+jsonargparse[signatures]>=4.40,<5
+PyYAML>=6,<7
+# MindSpeed-Core 26.0.0_core_r0.12.1 declared dependencies.
+pybind11
+ninja
+six
+regex
+decorator
+attrs
+psutil
+protobuf
+einops
+scipy
+sentencepiece
+pytest
+pytest-mock
+gpytorch
+scikit-learn
+SQLAlchemy
+rich

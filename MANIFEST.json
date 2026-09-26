@@ -1,0 +1,4442 @@
+[
+  {
+    "path": "CLOUD_LOCAL_DIFF.patch",
+    "bytes": 5784,
+    "sha256": "317f8a7a2c749d9528d6e68d89dc4f20d93465a6dbff2bad4a4c98942680ad57",
+    "origin": "packaging_documentation"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2079,
+    "sha256": "517d779596ae2abdda7b3875929052c1771f47a66765f036cf662975fdd4d557",
+    "origin": "packaging_documentation"
+  },
+  {
+    "path": "REPRODUCTION_REPAIR.patch",
+    "bytes": 5421,
+    "sha256": "ecad9357bb615a55b7b606d50d78442087a876f5bc7af463f4f2becf396805b7",
+    "origin": "packaging_documentation"
+  },
+  {
+    "path": "deployment/ascend/README.md",
+    "bytes": 2685,
+    "sha256": "58914dfb9af477ca7eb2b3d9532d7e8ee20b3f998549258d6b2f082f46979c56",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/TODO.md",
+    "bytes": 2974,
+    "sha256": "1e63e9b75a288bf7dbe0ac111bb073aeea4897e5fb6fb235f21ae9a2186ceb42",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/benchmark_plan.md",
+    "bytes": 3154,
+    "sha256": "acb159c6321ceef94bdac79daa87b3131c7d08a2be184b37c7f1c3bd21af3678",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/environment.md",
+    "bytes": 3489,
+    "sha256": "6a0a109daf3c91508ce517d80858abb3032ef474be88fe3bbff99c807f2f5fe3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/migration_plan.md",
+    "bytes": 4884,
+    "sha256": "39085c666221c5c70a6122d2c4e760cd61f9a5049347d8282ad916db8d5cd0cb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/qwen35-linux-aarch64-py310.lock",
+    "bytes": 13634,
+    "sha256": "b490e2b1c6105d3dfb5395e0ee8496fa1c90d29a3e95b192a94564b6f6083a96",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/qwen35-runtime.in",
+    "bytes": 829,
+    "sha256": "87fc2f3cd1693005ec6e07702b29d1444de0ae386a578de46ce7e4844bfe5d90",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/qwen35_dependency_fix.md",
+    "bytes": 8089,
+    "sha256": "50d64dfbbf6b06445570eb86ba96ad6960c02cf2d3a22ef0f31044cf75604a91",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/qwen35_official_task_runbook.md",
+    "bytes": 6656,
+    "sha256": "b2dcc551bf5eb8d92da3e01ad0b9d11546d3c7fa1c8c1c19365fb536aa3b5d3e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "deployment/ascend/qwen35_server.env.example",
+    "bytes": 855,
+    "sha256": "a3e2609c4561cb563625b39454d3cb8986050bac78c4db113deac5443af5bb22",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "scripts/analyze_qwen35_training_log.py",
+    "bytes": 7406,
+    "sha256": "ac1182ea04fdee274f90543ed4ce08f5485ee515143964da86dba488230edeb7",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "scripts/audit_qwen35_runtime.py",
+    "bytes": 15318,
+    "sha256": "5156cb25242593dafdba82205f01605e66dfbe24f888d9c5965fa37fb6666787",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "scripts/check_mindspeed_qwen35_bundle.py",
+    "bytes": 11832,
+    "sha256": "17d6d0c79be1cd4d3a308a4fcb481c2e4e61bddcac7afc1b534762e1b15c1ddf",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "scripts/convert_qwen35_weights.sh",
+    "bytes": 1423,
+    "sha256": "57de7a1e06a9c1fbe8e32b1f1e469d671e840c9cd9da6abddf6f8c7c1e2c3847",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "scripts/prepare_mindspeed_qwen35_config.py",
+    "bytes": 6984,
+    "sha256": "ce02ee534f2772ec26d410476a706eb5726d0f87ad65dc1966d1ada3c363636a",
+    "origin": "local_post_training_reproduction_repair_20260925"
+  },
+  {
+    "path": "scripts/repair_qwen35_python_headers.sh",
+    "bytes": 2055,
+    "sha256": "72c82b604c2597fdf8eb77d32e5e7107a329285d92aa67762d41a253f8fe22d6",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "scripts/run_mindspeed_qwen35.sh",
+    "bytes": 4575,
+    "sha256": "063d84b5a8a63f36950378300992c40a34627367b8cb5cdb55b1d13c6007a677",
+    "origin": "local_post_training_reproduction_repair_20260925"
+  },
+  {
+    "path": "scripts/setup_qwen35_runtime.py",
+    "bytes": 6496,
+    "sha256": "231dface1e364c5a703a609b39789e73d8d78afe7123feea336ce4d982abff27",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM.PROVENANCE.json",
+    "bytes": 965,
+    "sha256": "d5b99886dac3d9ac492f950a37354bb22476edc65a8a14397515e017894b94e9",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/.clang-format",
+    "bytes": 2152,
+    "sha256": "dc8a67164c4d440f6ccf705cf4fc5dbf897982ab9c79825352c9967256ef5808",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/.gitignore",
+    "bytes": 2242,
+    "sha256": "3e44ed7f7e4b780a9fc967bb11bfc9e3c6640637598fb58577f8fea81186fae7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/.pre-commit-config.yaml",
+    "bytes": 1621,
+    "sha256": "00b140e31bd2e8a62b914355bd35623da5fff796919ec6d67b22b7c121cecefb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/CONTRIBUTING.md",
+    "bytes": 3374,
+    "sha256": "c5b74f82d500b41cd2369bff45e829f2ab9ce0d632a5cac499f8d819cdae4c9a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/LICENSE",
+    "bytes": 14564,
+    "sha256": "a7b86ea4081430d614ca4f780a82c82c5e97601cd78b9fdcf5a9ecc264c90a99",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/MANIFEST.in",
+    "bytes": 72,
+    "sha256": "8b789b15df3e30fd272fa82dea8c9b9b8d03b86c58918227ae47b700c9af7145",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/OWNERS",
+    "bytes": 704,
+    "sha256": "d7bc8157698e847790049348623199396528be2123ec43571e5f042eadad86e9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/README.md",
+    "bytes": 51607,
+    "sha256": "fbb681438ee558b4d68f3645588b616e55b53c05777853101525437d9e5ed56e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/SECURITYNOTE.md",
+    "bytes": 8321,
+    "sha256": "895d15060ca4c681bba7873255ac2c681e7f785794b9dbc471283c5abb59598f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/Third-Party Open Source Software Notice.txt",
+    "bytes": 73619,
+    "sha256": "ca4fd7168c38ac9aa52b7a541f332e991ae520cbcba6810adfa0b95b4dff73a7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/__init__.py",
+    "bytes": 1634,
+    "sha256": "e237c8475611393231359c537d8d789bc1d4fe8f47d53396d9a9e6aecbccd8fd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/conversion/__init__.py",
+    "bytes": 1339,
+    "sha256": "82ee667ce488186c638d8996d38e44a17a3c53b2a07eb9bb351a9378d252376f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/conversion/auto_bridge.py",
+    "bytes": 7896,
+    "sha256": "6785d3539fad0832a7bfb44eeccfc7e7b9a85a921988afd40621ece3c8219489",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/conversion/mapping_registry.py",
+    "bytes": 5025,
+    "sha256": "bf8015f8d4612795b61d6e74f7852af2fe795272ef994c6761e7c9121e20252b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/conversion/model_bridge.py",
+    "bytes": 39822,
+    "sha256": "f41149fc202dea130aea9d90c2fe42cfe814e2c55ac8195c6eb876c20dd382dc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/conversion/param_mapping.py",
+    "bytes": 70026,
+    "sha256": "23781630914e1bc363c6f173741986dc51fe91525a224332c27e6f78b45d03ca",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/conversion/utils.py",
+    "bytes": 8961,
+    "sha256": "1ef28ab6555a1812fa02d06b67890ef7af94ffdd7260c6f59d8a3275236d4587",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/decorators/__init__.py",
+    "bytes": 79,
+    "sha256": "c4458616778372415f3486fd90bb7a5191a6e17d063bcf924fd55813980bf2ee",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/decorators/dispatch.py",
+    "bytes": 12977,
+    "sha256": "4e1b9aca50581357d666006f1448c87debf04c958304f993c3695dc89657edd4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/hf_pretrained/__init__.py",
+    "bytes": 103,
+    "sha256": "0ed8327fb3714567e116df9b3c800b4de2a0cb22874e25ab22f2828b170b03ba",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/hf_pretrained/base.py",
+    "bytes": 4249,
+    "sha256": "b0aae5b6363754d62d0fd4958203d53727b302dc3bc2cd3a2aa8b80ee2385086",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/hf_pretrained/causal_lm.py",
+    "bytes": 6221,
+    "sha256": "dc9abf326bf613967cd09029e3c63f37ea83f6d4a8dab121707981d293751368",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/hf_pretrained/safe_config_loader.py",
+    "bytes": 3639,
+    "sha256": "2e5c8e898b4f385fc6223222c6ea93d6cc836598b565948e07d971cfba86e4c0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/hf_pretrained/state.py",
+    "bytes": 16356,
+    "sha256": "4680b93801781b0e85b2b64bcbe10a87157fb020e203159c1163d4eaf0dc3b75",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/hunyuan/__init__.py",
+    "bytes": 183,
+    "sha256": "493043c5d3c6b1308a1c1d9b6a30e2e94250ee26c652915c4750024965d85476",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/hunyuan/hunyuan_bridge.py",
+    "bytes": 1478,
+    "sha256": "92c269e480b3a87abcc096eb1d8babe5d73bb707ff591a551d8cdb704cde19c9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/qwen_vl/__init__.py",
+    "bytes": 229,
+    "sha256": "27c719a03dba703166c23e2ef8202a6912929e4b0b6f5382500527c6263d1659",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/qwen_vl/qwen25_vl_bridge.py",
+    "bytes": 7034,
+    "sha256": "f56fc2ef1fa32e5cf8908e69bb2268f3dd442626bd316f8d835adfa878f19fbf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/qwen_vl/qwen3_vl_bridge.py",
+    "bytes": 2333,
+    "sha256": "e8aaafe53721a74056f0cb71b5d2f4650824d3e639ff45d76d63104029902d4f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/wan/__init__.py",
+    "bytes": 140,
+    "sha256": "dcc875a35e3d9162898b17231e0c4641d1fb21a8eb658fdca581b3d8c65e893f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/bridge/models/wan/wan21_bridge.py",
+    "bytes": 5373,
+    "sha256": "77ca2c635848949e0e70bc6e88594bdc02d4aa5fccb3915bdf99eb1c5c8b18ab",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/__init__.py",
+    "bytes": 1603,
+    "sha256": "0b7e8dfc356b897621cd94b8ebce02140c19d1da1a28891db90611e2782d89dc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/constant.py",
+    "bytes": 294,
+    "sha256": "c7eda89d780f0738dee72cc574fc2f78dd4619818c0958753804c75ab3ea389e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/converter.py",
+    "bytes": 1174,
+    "sha256": "62a955cdb7587973d5a517315908678e44b27e196ca78a78e75396c81cc2f29d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/dcp_utils.py",
+    "bytes": 13194,
+    "sha256": "0db83b730c057972fae9441794abf398abbe033b4981b0efd2f5ee91e0b13423",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/hf_to_dcp.py",
+    "bytes": 3008,
+    "sha256": "3525c31dd1fe22ec1a896a01366f5e7d419cbb6a0ce463c244561a6b5037f45f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/merge_base_lora_weight.py",
+    "bytes": 6923,
+    "sha256": "0bee73b96790ada2324eb9048f92071ebc3118aad429f2d80a2322383c84d000",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/merge_dcp_to_hf.py",
+    "bytes": 6977,
+    "sha256": "05bba1bb883e51b9ac2132b7da36e6e01ea3d7086b25ecd0df245ce351395a66",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/merge_lora_safetensors_to_base.py",
+    "bytes": 5259,
+    "sha256": "e6bacd313e8a20e275f72646f27bd2d27246e1b931d0b1ced86cb7a50defb386",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/mm_types.py",
+    "bytes": 228,
+    "sha256": "e0d61cd9aa592bf1f5e9732e44a27945fed96c3e9937d5158edd59b7903af5a9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/common/permissions.py",
+    "bytes": 836,
+    "sha256": "20bc521ad47b5ec40add1af092f3213040afc4288bacfb82becbb8097d4967bf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/convert_cli.py",
+    "bytes": 698,
+    "sha256": "f1ecd3753a5a239a915f18012be91359da2da12c36a498108421d0b00c2ac405",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/fsdp/custom_model_converter/qwen3tts.py",
+    "bytes": 5073,
+    "sha256": "05533b3c87417ce9aae6419876ae377a86b48b5040973f0259a80a3efca40f49",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/fsdp/generic_dcp_converter.py",
+    "bytes": 6021,
+    "sha256": "04c072c9b6035f58d76a3205f34b1117fb3602c819239c65cd708cb45f01cb39",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/bagel_converter.py",
+    "bytes": 9035,
+    "sha256": "60af739aed7e127211bb89633e150bbb25d869d80f9ef9adfa92b9944b8be47b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/cogvideo_converter.py",
+    "bytes": 14246,
+    "sha256": "7ee57b60cf53b4b97211294da898aed755d5a480f328fc8f72e5856ae9ec49b8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/convert_utils/cfg.py",
+    "bytes": 424,
+    "sha256": "c27f86ad0567b82df301882a11d35390895bbbbd3f350cc56b99c7f4f760657e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/convert_utils/save_load_utils.py",
+    "bytes": 7653,
+    "sha256": "c99f8745b22e278d82a70974c722fbaaf6e25aae80618656327ca46d1999cf0c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/convert_utils/tp_patterns.py",
+    "bytes": 1689,
+    "sha256": "6a06968dc678f3166c6830e23d8a1a30f15ec47994a26b4f36e5a83fc023045b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/convert_utils/utils.py",
+    "bytes": 2366,
+    "sha256": "9618cc4e1e339f4040cc4616fd793646c5358ec1dccc60e54f3d0d5eda703fef",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/hunyuanvideo_converter.py",
+    "bytes": 11360,
+    "sha256": "314867b9b4b499ca43530b01b494c24d141d80113abaca189fc9205201640799",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/lumina_converter.py",
+    "bytes": 201,
+    "sha256": "24db9e7e013e690fa4ced1ee4c8137e400e721befc1a44616a1bd4127768600b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/opensora_converter.py",
+    "bytes": 5477,
+    "sha256": "85ad9d44a7eecc48c38a3eba7204eb0ecd0727ceaf1ad681262f107ad79f1869",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/opensoraplan_converter.py",
+    "bytes": 10533,
+    "sha256": "68ea0740febb06b1f6d15d77df329bdfa59fa8b9a4a1b0a4994e778932c4f154",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/sora_model_converter.py",
+    "bytes": 14026,
+    "sha256": "a0d4e9e2b727023b280b2dedb75393936505e66cf6c4088afaf4c049a9aa2e57",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/stepvideo_converter.py",
+    "bytes": 8364,
+    "sha256": "41d4b5682d128b82c3541632eabd8dc7a9ac53eb53f4d8584ce85c33e9c60378",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/vace_converter.py",
+    "bytes": 11183,
+    "sha256": "c0b0c138fcdf3008cf73937a254dceea694add9b6eb2120d07d73cff2f2fcae9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/sora_model/wan_converter.py",
+    "bytes": 4729,
+    "sha256": "d3f59ea7bfa211e44fd5d3a9db4919fbe03774fba55e3e78f252d7e9a35513bc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/config.py",
+    "bytes": 14291,
+    "sha256": "8b5782fe22d316cb63652f2054f60017ed322a003cc95dd668944063822cd092",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/deepseekvl2.py",
+    "bytes": 11938,
+    "sha256": "c62f7e92f9959e1c06c3e8ed3f4a5d7591e056a49f50eb9af102e4faf62af835",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/glm.py",
+    "bytes": 7563,
+    "sha256": "fa644d34b9b03216e700eb0df8427f7cba8788af8a5d9ac05d4c6167e170fece",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/internvl.py",
+    "bytes": 12628,
+    "sha256": "670e89d0d89ad46267d4104db9de4457295c23f2413ce567952f9f58d0f83cb0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/mistral3.py",
+    "bytes": 9413,
+    "sha256": "b09d25c685ab9e28ab6c6f68bf3cfd2e3615defa2531864222f2129254d803ff",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/moe_expert.py",
+    "bytes": 13592,
+    "sha256": "6a2ad2fcef795891359c479d1cadcfed1f862c82894051ccba3116a1efca3a37",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/qwen2_5omni.py",
+    "bytes": 12478,
+    "sha256": "1fd8026353f53ecb4d0c04daf0274967fea60e66432b0e9571ec0b1f0a7f96f5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/qwen2_5vl.py",
+    "bytes": 15910,
+    "sha256": "97783be2143685f72676f98c16c998536933ba447cce346e15412caadfcd7cae",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/qwen2vl.py",
+    "bytes": 13293,
+    "sha256": "eab1d60c7a986cffb214b0740ee271dfefda9ac595181aac9be4b3aa6430d276",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/qwen3_5.py",
+    "bytes": 7353,
+    "sha256": "6c0622828c61e2b7f8d7591ffe4bffe5055d6e06d428633f9d2ab6c963d5a607",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/qwen3vl.py",
+    "bytes": 8387,
+    "sha256": "66f21710823d05ca1d4d3c313f78eba23aa66d63e0be81997b2fa0f2c801aeca",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/qwen3vl_megatron.py",
+    "bytes": 12623,
+    "sha256": "51e00e5dcb04065fc27129e820a1f9ceb4d9ae0b07f6258d7d81eae8dde94328",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/converters/videoalign.py",
+    "bytes": 15372,
+    "sha256": "5ab54622c44e1d646b7317cae0a416d9ecce57df045fd73e3e1e18643d9f4eeb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/hf_to_mm.py",
+    "bytes": 18680,
+    "sha256": "ab56b4f7d7f038ffd70934a89042824082d399d940e4e915cbb932069c57e2f5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/hf_to_mm_ldt.py",
+    "bytes": 7483,
+    "sha256": "e2ef07c953fc74a33943b4ca4b44378e451e2a48d40a0224e817ce8cdb372956",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/mm_to_hf.py",
+    "bytes": 11399,
+    "sha256": "fd402dfe2adc6fd9c21bf4423510da9705729a1fee18cab705b067c998552f97",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/checkpoint/vlm_model/operator.py",
+    "bytes": 23670,
+    "sha256": "56a7a43bf5d8e90d17fad108483c0a7c0bb888e1bf1c0a9da08f7aff32acbfec",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/ci/access_control_test.py",
+    "bytes": 6391,
+    "sha256": "b7ec0c734c6b5415b190e6ef78b131e57860d06ce905f75ce3b0639ae6b23d3e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/ci/generate_st_baseline.py",
+    "bytes": 3339,
+    "sha256": "3897578d545732efc4edb08360519ec8a6d282fddf2fddb61c7fbbf71b8803cf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/ci/run_ci.sh",
+    "bytes": 1055,
+    "sha256": "f98c7934dc0b749b7df05bd5a9f9abc0be7a7b577260b6fe8a443c09c3874f6f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/Dockerfile",
+    "bytes": 6375,
+    "sha256": "eb33a2bdd5eaf490930403689d45654436d51321d55d1a2071e3d66f27dcb4cc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/OVERVIEW.md",
+    "bytes": 16881,
+    "sha256": "b5386da6b035c6eb1654ad98db70c356d13a7b7fdd3f2de019a2cbf758d94885",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/OVERVIEW.zh.md",
+    "bytes": 16671,
+    "sha256": "9737f83dc67793814ddab433b12ac190df9b9d641ec42e574d1e907b9ba4ef2b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/build.sh",
+    "bytes": 17272,
+    "sha256": "5765783f6c0e59dcfae4f1f15caba4c961bd4cb5ad9d63fe28c218368653eac1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/common/common_functions.sh",
+    "bytes": 6857,
+    "sha256": "1e74279d29c7d8f021b9065d0224b8fed7d3f771bf45479915d90fe5c77d0754",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/common/configure_apt_repo.sh",
+    "bytes": 3187,
+    "sha256": "0a532820b805f8a9aad1b84cb02e35f9773011867dd06690408196bcda787c2d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/common/configure_yum_repo.sh",
+    "bytes": 2581,
+    "sha256": "d8af15a01b2e66adcf459b3eae6c78daae41612a5c7812c8d749847c24c43b7b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/common/download_decord_deps.sh",
+    "bytes": 3226,
+    "sha256": "c246f3515fa0f92c94c7f6b112447c54caad49cb5c287328cbd6ed29693ab6af",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/common/download_miniconda.sh",
+    "bytes": 3019,
+    "sha256": "9d715039cae9a77c77c949790a1851b124ae9e4fa9798291068b16fb6204a665",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/common/install_decord_on_arm.sh",
+    "bytes": 4346,
+    "sha256": "5df31d67b789bd38c646bafc0e439dc10ba49843a82f47096cb37cf060f1d640",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docker/scripts/model_install/install_verl_qwen3vl.sh",
+    "bytes": 3526,
+    "sha256": "c920e79cae3443461a2e3c6d4e1a768308a09bed08c30980450615b5d9afb48b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/LICENSE",
+    "bytes": 19051,
+    "sha256": "cbd5af318286b74656f145dff5091907cc23d6d8c9ad09e0291ec2497792ba41",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/en/mm_logo.png",
+    "bytes": 31554,
+    "sha256": "a8fcd7a32ac1f92b3cb04084dedaa47cb66e8b8b90eceb176d7b5eba3f663821",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/FAQ.md",
+    "bytes": 5474,
+    "sha256": "ea787182f65b8ba1d8627fd86dd933593063c951088245d2be1b128d931f25c6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/_menu.md",
+    "bytes": 169,
+    "sha256": "94e70bf8c68cef074e41ca7bc413676f0336a17719c6d88cb85ebfe844c7e58e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/config.md",
+    "bytes": 8028,
+    "sha256": "2511ee7e431ceaab8db05ffaa802f30298d20155ff459e2e2da39af0637b6450",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/dir_structure.md",
+    "bytes": 4606,
+    "sha256": "1ebcee29de024d091c683504ca00de81db2b199acb25330ff1727bc4ec27500c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/agentic_sft.md",
+    "bytes": 5903,
+    "sha256": "f7f578463f491899a3f698212d4a7f0be3c66581cf5057e09f567c8950f64d36",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/async_activation_offload.md",
+    "bytes": 2695,
+    "sha256": "91cae4fd686bdd0272bfee09cd7607e040c592e301df716d01ea762cf12dc40f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/async_preprocess_iterable_dataset.md",
+    "bytes": 22112,
+    "sha256": "4a5e549aaacedabf91438b3be8ba2bb95cc4325d9927d816a6f60e325dcdd12e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/automatic_parallelism_mm.md",
+    "bytes": 7831,
+    "sha256": "c9a699118b69c2ee26cadf9ab3c8324a46fbd6e123dbf04df23998c557b5f468",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/bucket_reordering.md",
+    "bytes": 3927,
+    "sha256": "882171fef65890430035c02ce0d74c7e067c22f026d637f5682f17c826f869c5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/canonical_model.md",
+    "bytes": 6526,
+    "sha256": "3543ff4c29676cc438b05f7b42a5b1f57f6f0ee7b6ea8072c27e17eec8047ea4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/chunkloss.md",
+    "bytes": 2303,
+    "sha256": "f391940a867a376f34d4dd5464a1db663ec295149dbb3c1447630e62ec14b6dd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/chunkmbs.md",
+    "bytes": 5378,
+    "sha256": "a25a6ce5d559887cbb795e407a09d420967741807bd17d61f5a07f925ab666c6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/deterministic_computing.md",
+    "bytes": 1926,
+    "sha256": "d4055a6ad384350bd32c1cd3389a9868d6a8bb5103eb23f0a9bb2f6f42c6fb24",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/dit_ring_attention.md",
+    "bytes": 3212,
+    "sha256": "0618313243242b1764a820fdc573dae10821bf044165aefb08a1585cc5d352f5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/dit_usp.md",
+    "bytes": 2496,
+    "sha256": "d82c378ca00677dc8eba23fb019d5d014df203b9985b3510dcd01cba2193c649",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/dummy_optimizer.md",
+    "bytes": 677,
+    "sha256": "ff54a371f93a3dbf6f577564bdbcbb46bf9ba522c03acc25fd3cddcea0185138",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/dynamic_dpcp.md",
+    "bytes": 2278,
+    "sha256": "bf03b1678792e8b8316cf7fd91aad8ca6ea104c5dc155b85beea6c1e221b5742",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/encoder_dp_balance.md",
+    "bytes": 2242,
+    "sha256": "de760c0b5dc56824d507ad94c9d9b37eedb61410088a20ed9c3a99524c175570",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/feature_list.md",
+    "bytes": 6461,
+    "sha256": "6a06d8b93cb0d30fdef00582f4febc7f512065c5f3539472a1e5a6e83d2d9248",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/fpdt.md",
+    "bytes": 1930,
+    "sha256": "01c530c9f7da90a2a707590810e28963f93e0648c96bfca210fa63f3c5a89069",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/fsdp2.md",
+    "bytes": 5696,
+    "sha256": "3ba117a43a182b65f8d7835d779f31e0498920a0b03ad46cecfb98e58504e9f4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/fsdp2_developer_migration_guide.md",
+    "bytes": 20622,
+    "sha256": "5d21ddffca65f34af5d9c11e9415f54c24f59cb770d9d9297f020be3f668b814",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/fsdp2_muon_optimizer.md",
+    "bytes": 4085,
+    "sha256": "20867be82df30c1274a0e460c2019a5af040dafbf3dcd3db22db75c7d63e8506",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/hetero_parallel.md",
+    "bytes": 4008,
+    "sha256": "4b0e988ab517ffed167aaa6ad0c769e821b92f9ab58511bdc286eb96730f973d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/layerwise_disaggregated_training.md",
+    "bytes": 12984,
+    "sha256": "4dc92d74d39a81e79f9c9395d27967e2054f0a3c56f15a54105c5f469782d3ab",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/lora_finetune.md",
+    "bytes": 2971,
+    "sha256": "9294bbae622e027c2923e1f1b2fe0e9046f40cca7c53db554cc91fa000a8db63",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/lora_finetune_fsdp2.md",
+    "bytes": 7740,
+    "sha256": "7dc1dc479f3e211c69e05345de680e09555db87dcb20b64676178ce1eacea8aa",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/mm_convert.md",
+    "bytes": 6138,
+    "sha256": "5b595f077902391deed71170577fb46df8640489bf0de3f968f86c95fd805d18",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/multimodal_dataset.md",
+    "bytes": 1270,
+    "sha256": "e989a26dcd0e5b1649cf6775e4c93c232feacd758e02425a592f01a5bd350634",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/multimodal_host_performance_analysis.md",
+    "bytes": 18383,
+    "sha256": "8923357f971cc224ccd24fef1ff016d4dfd6c2b1898a413153c7837627cbff1b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/online_data_rearrange.md",
+    "bytes": 1313,
+    "sha256": "bf1ff1aa46a80d1faa5651664c0b020c2d902ae6bcbd95208948acd8fdd2d519",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/parameter_lr_wd_tuning.md",
+    "bytes": 1401,
+    "sha256": "fb644da0c9536f8a9739e15047380cf018a7c43a51908393973791d4004076d7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/pretrain.md",
+    "bytes": 2779,
+    "sha256": "7e06f8cc94eb15467b770595e69b46256d085dbba7788520ed115f970fd67356",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/seqpack.md",
+    "bytes": 1376,
+    "sha256": "75d6d4186b27b94c45e81390c86cd52cf65b35a22234efc221cbe0904978d59b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/unaligned_sequence_parallel.md",
+    "bytes": 755,
+    "sha256": "c2dacf13b0672abb1c1c0ab1995d75afd20ca6c4ebe610bc0b7e5eb486db900d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/unaligned_ulysses_cp.md",
+    "bytes": 865,
+    "sha256": "a7fbd165c4a6eecf4959c42896c5879d57d2e1ea03aaa049eb380946d23923fe",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/vbench-evaluate.md",
+    "bytes": 8544,
+    "sha256": "d3d17761fad3ecb02d2295a9adcb8da75e1f2ab2a098f22c9f2b9e23cc8ad88a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/virtual_pipeline_parallel.md",
+    "bytes": 3084,
+    "sha256": "4459b928e0f1645471f460021b252e9e76d981723d9f7e37f1e2e1a5a8debf2a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/features/vlm_model_loss_calculate_type.md",
+    "bytes": 3837,
+    "sha256": "b7229557790fc5e9a5f6076b53494236c586472063e57426188818ea8ec07d66",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/introduction.md",
+    "bytes": 2797,
+    "sha256": "b9a9eb85f6014c6c471f746f3baf2445dfcd6bc816679828219654d8f988e571",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/public_address_statement.md",
+    "bytes": 26631,
+    "sha256": "0ddee301ae43c3a95c437f4e7d6ebfd5bd3ce0f1c210770b27b55ab7a93972c9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/pytorch/args_readme.md",
+    "bytes": 13651,
+    "sha256": "957fd8bb592da899bc807fd7c7e6c9d29db9d889f04b546982a28c224e26e36a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/pytorch/install_guide.md",
+    "bytes": 11371,
+    "sha256": "929fd07996c350d00250a94f59b4ac8a0945bb9bbd3e073f8234c9ee8e380b00",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/pytorch/introduction.md",
+    "bytes": 6443,
+    "sha256": "cb35f9dc7bfe3be35e3845a07e2c0747c968f12c3ff1bd149648013047b16f30",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/pytorch/model-migration-guide.md",
+    "bytes": 13127,
+    "sha256": "6d30565907e7865818421a5af994f849f21ddcc0e85b5f906184f5ca480138e1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/pytorch/model-migration.md",
+    "bytes": 17754,
+    "sha256": "1c5b5ca69bee982fa38d53ca29cd1dcc14b0ae2d93fa4e4f8f1efe35d66737c9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/pytorch/quickstart.md",
+    "bytes": 15981,
+    "sha256": "b5e58c61712a419e869536b2387cea26efbb9fd636b283e32f1d2c185931f415",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/release_notes_mm.md",
+    "bytes": 3768,
+    "sha256": "0cf5de518f68c70b2d2e2eead5195d62ec6ff8c58b392e37286f2bec5194b3ff",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/replace_ascend_path_guide.md",
+    "bytes": 4550,
+    "sha256": "3324aef50329fa9611bdb752f919292d4c36c885b9a72677f346e729d098946e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/tools.md",
+    "bytes": 9730,
+    "sha256": "7635556e706dda0698e16bfd9eb9f233803e82101df747299553b47b9710de55",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/docs/zh/troubleshooting.md",
+    "bytes": 7492,
+    "sha256": "0a43ef6784ac906504941a12b46af692bf50311b92129db42e83f3c3eee829c2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3_5/convert_weight.sh",
+    "bytes": 181,
+    "sha256": "861968384562837f61248b887e798367504ef356d16f63b5ecf8786f520c2995",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3_5/finetune_qwen3_5_0.8B.sh",
+    "bytes": 1512,
+    "sha256": "98456b8581c2a2346833e6d0a56a1080d78940f3cdbc5e7ead775a6cdfbf3b49",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3_5/install_extensions.sh",
+    "bytes": 95,
+    "sha256": "fd9f1dc0d2ee5b030823fcc3499c38361a666566672debef9da5d432152e860f",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3_5/qwen3_5_0.8B_config.yaml",
+    "bytes": 3667,
+    "sha256": "15821fbdfd912417512aa5c56b429d341419cc92cdec9f824001b530db8a1018",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3vl/README_v1.md",
+    "bytes": 7933,
+    "sha256": "97a27b2403d46160963aae226e360e3d2f7a8a2f2545aeaf69da38572769b957",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3vl/convert_weight.sh",
+    "bytes": 199,
+    "sha256": "763a9b04f1c98b9dae9f1a9e964066a206cf9e8aa47da06a2736c42cfc0613c3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3vl/finetune_qwen3vl_v1.sh",
+    "bytes": 800,
+    "sha256": "17d28b992ced16b13703a5218c8e7ad552ed28feb38f0aff2fe500d504deaa35",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3vl/install_extensions.sh",
+    "bytes": 95,
+    "sha256": "fd9f1dc0d2ee5b030823fcc3499c38361a666566672debef9da5d432152e860f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/examples/qwen3vl/qwen3vl_config_v1.yaml",
+    "bytes": 3640,
+    "sha256": "064fcf097945de949202526451f6efd2b6514944aaa932dfa5d91ab01f836921",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/logs/qwen35_0.8B_20260608_110844.log",
+    "bytes": 73773,
+    "sha256": "2ef1de1857350003916b42741686a2ad71a9245f9a618ef7fa1a467bffd5248b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/__init__.py",
+    "bytes": 170,
+    "sha256": "b4ae7305faf1200c323485a403a5a0e6017b928fa2e703a79881e87b29ccdc3e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/arguments.py",
+    "bytes": 12862,
+    "sha256": "fb5a3fca38684a450f7d6a65bf3c4d015e056142d683e5687623e5ea85aa6eed",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/config/arguments/base_args.py",
+    "bytes": 14285,
+    "sha256": "bb6464eb10525240deecfc99872719e3546e8d2be63294c45f8a3defc3b6b424",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/config/config_manager.py",
+    "bytes": 32131,
+    "sha256": "56327377443d8823a7b2ccdc6e4298eeb3c229bb6ae28ff0a533762725055281",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/config/exception.py",
+    "bytes": 90,
+    "sha256": "12d33496510098b18067187baaeb07c561a99251c58799ed1ef38fb64ecb611e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/config/global_config.py",
+    "bytes": 1340,
+    "sha256": "554fc0fb764a9c68452ce9f28669312a591f3afd96148dfc74b1d8aa1262dc76",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/configs/config.py",
+    "bytes": 9856,
+    "sha256": "ae58987a82e4008023b21d6b4673da3283208993957c4610089b4678efd4ce0c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/configs/read_yaml_config.py",
+    "bytes": 2653,
+    "sha256": "af00a7bf2cb61d63bd8de66931da037fe1ff462e719d843e590c6b047e747154",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/configs/validate_params.json",
+    "bytes": 3330,
+    "sha256": "d9eea2cecc5468bd11f5fc35b06a4501203df21604225614d174e4ea8dd92d00",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/__init__.py",
+    "bytes": 8606,
+    "sha256": "cc47cefe1466fa00f0d5b48e9c510f2d25e21147399b5509fb897b88cc27cc73",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/aspect_ratio.py",
+    "bytes": 15355,
+    "sha256": "6ca005e7f99f3b48c15d0814b7ca9880e0d88bc6d6d1848745ff08eeb4e51ee9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/bucket.py",
+    "bytes": 4815,
+    "sha256": "8a4ca191f26772eab61f0bace1c47ae693d002a61b089982c55f68a0f224c8d8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/constants.py",
+    "bytes": 1609,
+    "sha256": "edc6e81c12404321d83bb681fd49f592cf67b3158d258421ac6b1bcb6b69be81",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/conversation.py",
+    "bytes": 8230,
+    "sha256": "0db8bc6472116933b0ea017177e888ed134ee4ce32a9a93a110c0e16daeba090",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/data_transform.py",
+    "bytes": 38371,
+    "sha256": "03fbe8c1e58b30243e5ff94454ad23ad88950d9ec3231f672fd4ec304ff3d275",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/func_utils/collator.py",
+    "bytes": 8453,
+    "sha256": "788ee1fc6a79b87fff7683abdb326f028e27f62218fec73a47f4840ad3183bb5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/func_utils/convert.py",
+    "bytes": 48214,
+    "sha256": "19c793ec4c83de9973f58b4c7109fa3d7f38a41adc6a032b9579882c3ed3ddf8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/func_utils/formatters.py",
+    "bytes": 6048,
+    "sha256": "923dc28987e1528030a53695ae69369b584b69a0320832e8f81f50e42c258c9b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/func_utils/log.py",
+    "bytes": 1171,
+    "sha256": "397f79a3ced452fb4aef9d62bd27b0312715cca8e1cd4b10a9c7c5c025f43bd6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/func_utils/mm_plugin.py",
+    "bytes": 57057,
+    "sha256": "f9343a1887a3d43332612d5b90e3942a1dd8f80dfe5e0f547cdbb08c8e86a2f1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/func_utils/model_args.py",
+    "bytes": 3671,
+    "sha256": "fba83c853c05d636d92eb070b96b566bc8c4981f69633546fc8b18624a2406c3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/func_utils/template.py",
+    "bytes": 22504,
+    "sha256": "3f4d1ede1f2717a5b6cf101395cc9ff4dadcb877f72244a65ba91ff8bd24e4b8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/func_utils/tool_utils.py",
+    "bytes": 3031,
+    "sha256": "63f3ae6bea29ab3eec5188fcf058f381510e866ee1bb58b32af4fba6318b421f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/lumina_item_processor.py",
+    "bytes": 17362,
+    "sha256": "b658e45cbf51f9a475c0094700d97a0fe54de382c613af7dbab888a6cc677abb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/multimodal_image_video_preprocess.py",
+    "bytes": 14396,
+    "sha256": "45aa2bbd3ec96d0d0ac54f81e6794c3a222bd145d166acad2f7cfd1852ba9d9e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/processing_deepseek_vl_v2.py",
+    "bytes": 26287,
+    "sha256": "891b0c060c2fb6ecb3d3b5365b1c3004e8738ef12e53cfa0ccad8ea972321bc4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/reward_preprocess.py",
+    "bytes": 15440,
+    "sha256": "29b65239d801b956fa40942b141a397232b940ab0eed0010146186ceb97bfccf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/transform_pipeline.py",
+    "bytes": 4628,
+    "sha256": "cad03590f0cf88f53d910f92ecb9974db1019fd5756762fd7006dcc43c46c498",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/utils.py",
+    "bytes": 35945,
+    "sha256": "229fc5251a155f8d44915c2d013262906524aa5675374dd46882744171ee2543",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/video_processor.py",
+    "bytes": 41742,
+    "sha256": "af632d1ed2e845c256b45b78fcd97c33ad55a84bdcb9818541f1332e16db749c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/data_utils/video_reader.py",
+    "bytes": 11722,
+    "sha256": "dd163182f9c015c36c9a2f3c1a619d53c4f0f56829baaf30aef30ba5cfc637b9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/dataloader/batching_strategy.py",
+    "bytes": 4629,
+    "sha256": "6d63657504674db30cf6311bf562186be1fe0a80e65a3a51a0c484b66fe6384a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/dataloader/bucket_manager.py",
+    "bytes": 29419,
+    "sha256": "f3ab9618f27b824353a671bed48c5dc3d9d2605d7455d826656f4e9a77b50730",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/dataloader/data_collator.py",
+    "bytes": 30360,
+    "sha256": "3ab63e6852a970c8ed006c67b6805e155c490ddc100f7b58bc171e23005dc4b9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/dataloader/dataloader.py",
+    "bytes": 22592,
+    "sha256": "c41b863ca7eb20b8ab8f15b59d5d61ee9025f3cdb8350fded93e50b1bf50908a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/dataloader/dynamic_batching_dataloader.py",
+    "bytes": 7038,
+    "sha256": "c018249e9bc7245f8265f2c422996ff9ceb3c51268e9cb11ba8073c8a4e30d00",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/dataloader/sampler.py",
+    "bytes": 47114,
+    "sha256": "56bf44e00e3a6ccffb52094d60bce2f8991e45c11650103664fcdccec1dd857e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/ae_dataset.py",
+    "bytes": 2722,
+    "sha256": "a939d2ba816c1be023d23ed8dc703efdfee4c17606d94f8a5bd1904b15ebfd1c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/audio_dataset.py",
+    "bytes": 3152,
+    "sha256": "7d11fc6b503823e25e4dd3eff74b586bdb8e9162ef1ec730e4533e28ccee5c59",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/bagel_dataset.py",
+    "bytes": 25489,
+    "sha256": "559669a3ad3e8e507d004df8e313b9e47084b2ff09f1b7f7288f69899d64187d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/bagel_iterable_dataset.py",
+    "bytes": 16059,
+    "sha256": "181c4f5d85d253e3eb23c8aa69cbad13e53c50e9f9c91c21f50f518947ff1448",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/feature_dataset.py",
+    "bytes": 3158,
+    "sha256": "3e6a1678cb3e059fbf0257bbfa91da131e7ac994ee47ca3f91d6ab6021754b8e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/i2v_dataset.py",
+    "bytes": 6554,
+    "sha256": "0cda5ed477974c554f8c4fa7eda345d15803d91278fa09aba2140bae37564601",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/lumina_dataset.py",
+    "bytes": 4362,
+    "sha256": "3d4db6e42a9a5aef77a47ecb124e6b35ce0596eb8e6553dad7bb3a71dcd339b3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/mm_base_dataset.py",
+    "bytes": 1554,
+    "sha256": "103af74417004560a70680df946db41cd019a3460e198064eae054540e00251d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/multimodal_dataset.py",
+    "bytes": 15242,
+    "sha256": "b8fd136ca62707f5b66b65ae61c4eb69e2d0dab33ffc9b4d902a3a65c407cd82",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/qwen2vl_dataset.py",
+    "bytes": 18516,
+    "sha256": "6b856f2ce139f54582b8b8f4417736afbb35e99e398d5fc449c1388246b2674b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/t2i_dataset.py",
+    "bytes": 113,
+    "sha256": "b90ac40ebc22ac6bcceead59f862c7c81713501667a753dbbd4cc3138b6b5e3a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/data/datasets/t2v_dataset.py",
+    "bytes": 17527,
+    "sha256": "0e886c92d386ed5721457fb277ab9addeb2d94cfaea91c320f0382050448b6f1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/__init__.py",
+    "bytes": 110,
+    "sha256": "489937bfe7365270d6c8c8e75808c51a98c7f2d614e8fb451fe3080eca83d7f7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/checkpoint/checkpointer.py",
+    "bytes": 495,
+    "sha256": "57c68e08daeb9b05d8ca2a070f51416b5d2cb66a7806c206eb40e96053f5fdec",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/checkpoint/dcp_checkpointer.py",
+    "bytes": 12517,
+    "sha256": "8d848eb5633e6639fc1c2c4e981faa4fc1046d71468a94d47b7c1bc973010262",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/checkpoint/dcp_utils.py",
+    "bytes": 13030,
+    "sha256": "9424ce0ee250828514e3d2afdfe9ada1e66d67bbf70ada5987cf338ee2e16cf1",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/checkpoint/hf_load_utils.py",
+    "bytes": 15760,
+    "sha256": "8a99d748b8eeec2aec57f75464ce14ef98aeab113af404b01e16eb5fcb542dfe",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/checkpoint/load_utils.py",
+    "bytes": 8166,
+    "sha256": "9b87754ea013fa9051ede4396262b73f182a9f38816e7750f310c681d1dc7f82",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/checkpoint/moe_utils.py",
+    "bytes": 5268,
+    "sha256": "336fc418da5853392ee3acccb61aaaf92fcb2dbd520720d3f007a384b0aa64c0",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/checkpoint/utils.py",
+    "bytes": 2374,
+    "sha256": "94cd600ffc4d7fc5bea5b8210cb5437e07ac972fc5251de696da4f8f8ac452de",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/__init__.py",
+    "bytes": 2414,
+    "sha256": "ac5715359223ebdee71b760b84c4e047ccdf2921b5d6206fd98036e83ee54662",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/data_utils/func_utils/collator.py",
+    "bytes": 13510,
+    "sha256": "54c8ec6a64e62303f6f7074f616829dcf042db21a446d5ca55f7924aba309fe3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/data_utils/func_utils/convert.py",
+    "bytes": 38188,
+    "sha256": "6376913db8989ea9223322411a3cd90b80435eb8d559465d79c3c434212aa057",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/data_utils/func_utils/formatters.py",
+    "bytes": 3009,
+    "sha256": "515094eede17f869b85f3df91acb2c7cccdf06d45420d69a93f1c333452f95cf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/data_utils/func_utils/log.py",
+    "bytes": 1173,
+    "sha256": "57f5ffb0c4212052698e9d7192bc703a41e1925e379b01f99cf09419b6770a6d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/data_utils/func_utils/mm_plugin.py",
+    "bytes": 55480,
+    "sha256": "ca02bc4684a863f5e4d1b0145b9c8cdb2539d42c0af1d06bfc177abbdbef1949",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/data_utils/func_utils/model_args.py",
+    "bytes": 3474,
+    "sha256": "8280e273f37aabb5c3fdf9d176916f3f0d17b1e56ed6ee17712265a648d2af77",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/data_utils/func_utils/template.py",
+    "bytes": 25082,
+    "sha256": "025031d531d731d28be50f8612adb066e9d55fd3135718702929837071c34a6f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/data_utils/utils.py",
+    "bytes": 1293,
+    "sha256": "1f17e89eb1d3019af0e57328f88b4e0ac4dd0692136b8771441db1ad88bc812b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/dataloader/data_collator.py",
+    "bytes": 4513,
+    "sha256": "3c7e911fc823cc0136aa2880d62768a24a0515b7310acd5f6fee7288fe66b8ba",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/dataloader/dataloader.py",
+    "bytes": 11365,
+    "sha256": "558386894abe31f165ce2a873a8ac202ec29dc5bd7c58e826978baa1a6b5994c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/dataloader/sampler.py",
+    "bytes": 4826,
+    "sha256": "b2714b484db5d1255aa68398ef696aa01e5a78f75c91a8a3e072441dc681f5d1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/datasets/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/datasets/cosyvoice3/cosyvoice_dataset.py",
+    "bytes": 31366,
+    "sha256": "3cc73ca1074a6a96affeb1227bda0235235833969cb2016e25237f4dd53a1c84",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/datasets/funasr/funasr_dataset.py",
+    "bytes": 17382,
+    "sha256": "59b739a24de51b34ed93e25e13ec7745eb4b3ab1ac6bcb0278c23b75d65f53c2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/datasets/huggingface/qwen2vl_dataset.py",
+    "bytes": 15432,
+    "sha256": "708842b6993b27e857dd0c86b84127addcb7b961f56445e367851b07cc870dc9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/datasets/ltx2/ltx2_precomputed_dataset.py",
+    "bytes": 23544,
+    "sha256": "28974e09e5f860f6988b3ecb6bad8eee432a4b76947483a9efc8d3f6fb67fdc8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/data/datasets/qwen3tts/qwen3tts_dataset.py",
+    "bytes": 9616,
+    "sha256": "974342e343d87c33fabf73251111e2e37a846b2c964ea9903d1ddae91823b1ee",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/context_parallel/communication.py",
+    "bytes": 39526,
+    "sha256": "c709b3d6f891ef3e1547c86641316276e5932cb4f645b958c415cbf8f43fa4d4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/context_parallel/ring_context_parallel/context_parallel_kv_cache.py",
+    "bytes": 5768,
+    "sha256": "72fb6891e2de7537c8fe1934e09bebb651cf147531595183039ecb4290cc40ef",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/context_parallel/ring_context_parallel/ring_context_parallel.py",
+    "bytes": 75754,
+    "sha256": "63a3836d0a6f1862b95851840712b3e67f98988d3b2a89f013fa088766b76753",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/context_parallel/ring_context_parallel/utils.py",
+    "bytes": 16882,
+    "sha256": "8c0a983fe6c9e268bae92d27f3c74ea6dfb6711cca3f3c60b121a7d61eaeb2fe",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/context_parallel/utils.py",
+    "bytes": 3698,
+    "sha256": "5c3b7214c720cd0da4ece2c08828bf0a591f8b36c5484011d7f14762030580a1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/expert_parallel/comm.py",
+    "bytes": 9654,
+    "sha256": "fc9f52005811ae61138a8476a887b9fb92b560658acebed6a91ce604902729c6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/expert_parallel/ep_dispatcher.py",
+    "bytes": 15052,
+    "sha256": "0d54d00517d40c2055fe668ba47f15c8dd968384575315ab853e6dd01a402292",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/expert_parallel/expert_fully_shard_parallel.py",
+    "bytes": 3479,
+    "sha256": "824e9d7b2943a4e6e22b0ae559e5fcce6f1264c6295f73ddf2d496484b8a7d4d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/expert_parallel/expert_parallel.py",
+    "bytes": 4941,
+    "sha256": "3e381d62ff369e549998a4563cbb55b735f2dff2c068ef69e5c6b6c910102db7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/fully_shard_parallel.py",
+    "bytes": 23877,
+    "sha256": "7e5d377fd30e6339892cb538e2936fe603df123b82c659e1fb5ab3c3905cb390",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/parallel_state.py",
+    "bytes": 9123,
+    "sha256": "f5a003d09bdaf451be7bb5573a613d36fbb24a554478813001771ff175cfab3b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/torch_parallelize.py",
+    "bytes": 3011,
+    "sha256": "e62a3b7782b2e039ba9dbe5eca932b68708435b61248641fab85975635912892",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/features/apply_features.py",
+    "bytes": 5127,
+    "sha256": "bbc8518ef3e4db3edec08009873a25b846a29151991c1d492a8e0f6d87ccf584",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/features/communication/chunk_mbs.py",
+    "bytes": 7634,
+    "sha256": "4e82cda3bd4d859c9248d3ce21109d7355340929470d12427c15ed84802ba5f7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/features/memory/async_offload.py",
+    "bytes": 13193,
+    "sha256": "37e6a7f8fff677da71cdc043d73de5e32d3b175be12dbe3ac93aff0357a78d89",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/features/memory/aux_loss_grad_offload.py",
+    "bytes": 1765,
+    "sha256": "296142eed94e1316f3388a4852f60d0729f89485ed590a0adc0836e384d84428",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/features/memory/chunkloss/chunkloss.py",
+    "bytes": 11531,
+    "sha256": "f4064df9af203da45c7ec0c8f21fbd4d40154f82ef7eb3ef953aa3e5aa52460f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/features/memory/chunkloss/chunkloss_lm_head.py",
+    "bytes": 2086,
+    "sha256": "cdf9064ecb632a4a06c1c769d0673c7af3e4dd875f5c2aeeb210b09a86921dce",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/features/memory/grad_offload.py",
+    "bytes": 7041,
+    "sha256": "5facf69185184997b401777f92e5625506d42d9c2bc5e6869b7ab7c2945ec329",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/features/memory/recompute.py",
+    "bytes": 1479,
+    "sha256": "f19f5e3767d89562f292bfdfcdb3a3ebd1d334064ed922d79878e488b23e65d8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/loss/loss_func.py",
+    "bytes": 8342,
+    "sha256": "c1aef3b9ee86be2c67a362ad455f8499d2191cae7608899142a7416f5a232918",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/base_model.py",
+    "bytes": 5114,
+    "sha256": "cd1bac91bf6b5b2566d16649151bd1b6b8183eeeba8dece8379d81e44381c03c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/cosyvoice3/common.py",
+    "bytes": 9626,
+    "sha256": "16ac32cd246bf1742afacb384dffa4d308cac722900c7e4f97f98527c152bc6b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/cosyvoice3/llm.py",
+    "bytes": 24097,
+    "sha256": "52f0cefed2cf839c49f3aafb9e8f5899259e394df42a7612115fd57b8da08c5b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/cosyvoice3/npu_patch.py",
+    "bytes": 366,
+    "sha256": "59db2a20a9f797cc420d97305ae05056f11cc6fc44d6275d059053b201602d68",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/funasr/modeling_funasr.py",
+    "bytes": 3215,
+    "sha256": "23fdd4a8ecb8c66f24c89af0c62060141aa74a291e451f9ff85b28cd3f1507e6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/funasr/npu_patch.py",
+    "bytes": 433,
+    "sha256": "1b2329f080fcc4ac9a56437d35a399e27987cd73ad7f465e54a119f5e483807f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/gemma4/modeling_gemma4.py",
+    "bytes": 120912,
+    "sha256": "719ebd5212123f7fd32706eb27f224050a491ddb4d1dbc83e2a4786d3958c984",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/internvlu/diffusion/internvlu_transformer.py",
+    "bytes": 62994,
+    "sha256": "dd00dbaca842cee2fe7ee446a9c01f94641ab07ab4ca961cd3ed620b8b5075a3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/internvlu/vlm/modeling_intern_vit.py",
+    "bytes": 19994,
+    "sha256": "25daeeeaa1278dc7adc0e73a7085154fba37ea4fa84a5875e41db48f4902728a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/internvlu/vlm/modeling_internvlu_chat.py",
+    "bytes": 23790,
+    "sha256": "c0607c00e4fdf0e507e6f9fee40780afd5ac99096b4b48fe726c55de87d9618a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/kimik2_5/media_utils.py",
+    "bytes": 13781,
+    "sha256": "cb42782ebed56322a9d23bfb7a762ec48c42192be627bbbc477dc6ea5fe60c4e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/kimik2_5/modeling_deepseek.py",
+    "bytes": 86438,
+    "sha256": "c836f91689630d5bd1cacabddad7b90a1fdf3f958df7c13e5790cd5731ad7143",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/kimik2_5/modeling_kimi_k25.py",
+    "bytes": 57374,
+    "sha256": "70ea0f447e9db6cd32d785fd2b100555802ef99e16b39a5be2c000cfef61f868",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/kimik2_5/tokenization_kimi.py",
+    "bytes": 13140,
+    "sha256": "890257940ca4eaa65bf55c412378e136d708d38a5ba0ce5ae2f62e20a0444ab0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/longcat_next/modeling_longcat_next.py",
+    "bytes": 41034,
+    "sha256": "bd394c6493291225dbf100528d6e9c127489a4b48a33c47d2a8cb0c66bea4aab",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/ltx2/ltx2_fsdp2/modeling_ltx2.py",
+    "bytes": 9480,
+    "sha256": "fee713368ada9b27ad714a2cb73b8261e2508b8ba764f4e58d4ef677465e1a0c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/ltx2/ltx2_fsdp2/modified.py",
+    "bytes": 10528,
+    "sha256": "0df5367d57a6b0436704231509ce820a68801f97389d5da81cdcdff9af816913",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/mimov2_5/configuration_mimo_v2.py",
+    "bytes": 9802,
+    "sha256": "3d04f369286ee6cbe8dcaf97412ee8233eef676d6e617282cdeee6ae6bbde91e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/mimov2_5/modeling_mimo_v2.py",
+    "bytes": 88609,
+    "sha256": "7871783844fa9699c78220e1b7a16fea0e742acfbf0e79fb9414bd41f03c2913",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/modelhub.py",
+    "bytes": 6721,
+    "sha256": "77e32f2fe3ab9eb73415cec5b24d5e85a464f52d88e60d2ccd87533b1bd4c551",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/mtp.py",
+    "bytes": 7830,
+    "sha256": "9241d8f81ebe50b231184d4791c4a3ba192c8babdbf9c0deb1f28b859688c833",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3_5/modeling_qwen3_5.py",
+    "bytes": 778,
+    "sha256": "73836dafd3b830dc82be84ef6873a7a331f097e7ab469bd890b82103e8adfe87",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3omni/modeling_qwen3_omni_moe.py",
+    "bytes": 110335,
+    "sha256": "01cba4729e1c14e909e958dfef0f46072ded3558130c1a700183963b1b6762ca",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3omni/npu_patch.py",
+    "bytes": 3047,
+    "sha256": "b0089abad3002b55e23c161a9bdd890e2cc77ccc5ee68072c3b9fbaaa82ed36e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/__init__.py",
+    "bytes": 991,
+    "sha256": "00aa4222242a2f5840be1b071c7ec902a7d530a93a9cb8489e0fa4ad41dab97b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/models/__init__.py",
+    "bytes": 808,
+    "sha256": "e681393732792c9c902d0e3a9e1b20673755a9800e952fd22f62f92f5dbd2928",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/models/configuration_qwen3_tts.py",
+    "bytes": 26745,
+    "sha256": "5bafbcc719a1e61b102b0923528f85406ece51ef745628eada017dfd22407202",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/models/modeling_qwen3_tts.py",
+    "bytes": 105241,
+    "sha256": "1c8a8a9804b3d48843a3bdb539593506328e7fd88ea2c16b24b5563c4b482be2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/models/processing_qwen3_tts.py",
+    "bytes": 4026,
+    "sha256": "e37e6b77319ae448f67714817f96c4a6f9fae11e3f5ce3ae537718016ca57f17",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/tokenizer_12hz/configuration_qwen3_tts_tokenizer_v2.py",
+    "bytes": 8064,
+    "sha256": "076a90610c38861fb3a3d159b73ec5f0d795db371136cd3765f69fc7f3161c28",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/tokenizer_12hz/modeling_qwen3_tts_tokenizer_v2.py",
+    "bytes": 40837,
+    "sha256": "74463d302ac8b1a7e4d4d4bb00457fc0038a79d7755a7d909a12e6db647b6492",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/tokenizer_25hz/configuration_qwen3_tts_tokenizer_v1.py",
+    "bytes": 14727,
+    "sha256": "435502e6e274d7cdceb39ab1a279fafcc10bd837ae72c529a809267628198815",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/tokenizer_25hz/modeling_qwen3_tts_tokenizer_v1.py",
+    "bytes": 56548,
+    "sha256": "f642f5b73f46d846686260722d664244e865f95b04507893f1a3920e896f9762",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/tokenizer_25hz/vq/assets/mel_filters.npz",
+    "bytes": 4271,
+    "sha256": "7450ae70723a5ef9d341e3cee628c7cb0177f36ce42c44b7ed2bf3325f0f6d4c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/tokenizer_25hz/vq/core_vq.py",
+    "bytes": 19649,
+    "sha256": "b9aac5e3c312b9b9bda25ad473521357399f6f3f637e53d7635a1e34c1151ecf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/tokenizer_25hz/vq/speech_vq.py",
+    "bytes": 15267,
+    "sha256": "c39e0a296557885c43ba44b312a19114f4f1c5cd8897ed12e1f8b4b15515605f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/core/tokenizer_25hz/vq/whisper_encoder.py",
+    "bytes": 14565,
+    "sha256": "291b9d694d4672881f29220359b6dc50254772ed43252f8506465a7b597451ae",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/inference/qwen3_tts_tokenizer.py",
+    "bytes": 15868,
+    "sha256": "8d171755d487eea6dfa87af8bc4b5ceeb92cc73aa13a2b83be2bcc6857b84181",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3tts/npu_patch.py",
+    "bytes": 365,
+    "sha256": "8fe4e0ae66d60528f115e9b605fc9881de212cb8e1ecc78c8d80002646410215",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3vl/modeling_qwen3_vl.py",
+    "bytes": 78556,
+    "sha256": "b9c908fe83df0850e0d1a6fa42db6a05139adb14221b3445e7a71ab933ab1d91",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/qwen3vl/npu_patch.py",
+    "bytes": 585,
+    "sha256": "4c7bc26ee468f408a22cd5cf5a9ad88e28ec2326a4e1ff9760d54f718d640cf1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/__init__.py",
+    "bytes": 524,
+    "sha256": "12557ee2f3e99c4020f878cfb554ebda5f962bce4d5109977230595dc4384e06",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/flash_attn/flash_attn.py",
+    "bytes": 22499,
+    "sha256": "4fd32bf5db005325986bec828b889ab9625f6aef2f388b99bef8f4b84aa16c64",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/flash_attn/skip_recompute_flash_attn.py",
+    "bytes": 7485,
+    "sha256": "ebb0f1dbf99dffec994471cdd30add2142b04ab5ac4ece044f0564056fa3553b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/fully_shard/fully_shard.py",
+    "bytes": 36591,
+    "sha256": "c3c764c366e09e77bb21605dfcbaf5dee31b253e2d813f3e148de196f5736049",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/chunk_gated_delta_rule.py",
+    "bytes": 15176,
+    "sha256": "e1598da0622f036bf96556eab1c435567681821c61a076c83cfc284bd776d095",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/flash_chunk_gated_delta_rule.py",
+    "bytes": 18335,
+    "sha256": "6ef47e68ec48811fad3fae52fd18f1a66c5395ae35983732fdc09d4bdcab7209",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/triton/chunk_delta_h.py",
+    "bytes": 23357,
+    "sha256": "2bb36fae449a4e4c1365a63ce0c0609a23d6c1739ba7002e90fbe019b6257fec",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/triton/chunk_o.py",
+    "bytes": 20560,
+    "sha256": "fefdb197e98ab0d165b35df35816155744b3da9727c6fdb026be8e8c1b31d4fd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/triton/chunk_scaled_dot_kkt.py",
+    "bytes": 11595,
+    "sha256": "664d78160736738dafa9a05c6e1a0c3cd3c95df655e215ef6dece9663298069f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/triton/convolution.py",
+    "bytes": 37380,
+    "sha256": "f99aff9528540fd4783bdef20923b69b1afa48e533e77b1a569bc41f459968c8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/triton/cumsum.py",
+    "bytes": 4390,
+    "sha256": "9283c810e58a06c9181dcd49253ed0b0d545da18e91a3171c7ac9e53687b58d1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/triton/solve_tril.py",
+    "bytes": 17888,
+    "sha256": "b318f1de61ad59b2d9ea8a14b36ea2e223dd4655f8025fcf0da7158d705612d6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/triton/utils.py",
+    "bytes": 12421,
+    "sha256": "c3352256232bdd4f38d003f5637992a85a8bd454fb686e57027414f165b35732",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/gdn/triton/wy_fast.py",
+    "bytes": 12916,
+    "sha256": "93cf66b6dabc58c734a9e0843a7afd1538b86f38bf32edddc4e481e763474d2b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/moe_ops/gemm.py",
+    "bytes": 3560,
+    "sha256": "6aaafcdeb40c79d229de9941c66150541decdb861e5ec1fd9d5a894d598e42a2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/moe_ops/gemm_mc2.py",
+    "bytes": 6029,
+    "sha256": "942358d22185b50b6f168ba3009a83bd64d8b9a29ae7bb32242a0b699fb47563",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/moe_ops/permute.py",
+    "bytes": 1052,
+    "sha256": "51f53a401fc448089bf12549acf4854b0a4fdd98f36a27292b276f5c86fba97a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/moe_ops/unpermute.py",
+    "bytes": 1702,
+    "sha256": "03aff9dbc9c6e0e435da4f36f240dcd359ba7acef55a761cecc55284605a2b79",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/npu_patch/npu_fused_operator.py",
+    "bytes": 4254,
+    "sha256": "bd0fc738cb216b6266828ef12a0f2019a44f3ed275c05c3d30c3edc0c397a391",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/ops/swiglu.py",
+    "bytes": 830,
+    "sha256": "90b6a90b53b4ff562a172b2f8f90be011482f10943d147507d60c9d11faa2f6a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/optimizer/clip_grad_norm.py",
+    "bytes": 7099,
+    "sha256": "8c00dbf8ef26ade2e5fae2eb9146cde1fe4305c1126a45f8280811fecde98a97",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/optimizer/lr_scheduler.py",
+    "bytes": 6893,
+    "sha256": "dd39998f70dfa382b0769c2fee669fca6162f387634f4293dd4c38fac6949943",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/optimizer/optimizer.py",
+    "bytes": 19191,
+    "sha256": "415feb36c4e462482b488b6b341bc4f118fea35b0435f6afa25e137e5bc0735c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/argument.py",
+    "bytes": 2783,
+    "sha256": "e3edc06e9a655b3a8a683d6e2b84430b74cc1f474cd88153f12aff60259a4e59",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/data_args.py",
+    "bytes": 2360,
+    "sha256": "693c3fd0952a91cea076996ab717ed08aa7db07c0859ab146def159da4f1eef1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/feature_args.py",
+    "bytes": 3105,
+    "sha256": "6c238681107e3ad55c7e0ff443844cf356033d0e299f8c6c46ec020fbe6196f5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/lora_args.py",
+    "bytes": 4674,
+    "sha256": "94f4303b76d3ad58fd0f520795eb04380c75717354ef577f294086b4b2c000e0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/model_args.py",
+    "bytes": 1473,
+    "sha256": "443fcb4271cf74c9675a637b798b762119a75a0b4d1e9cbddb55e7c5abbcb998",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/parallel_args.py",
+    "bytes": 5791,
+    "sha256": "256a233960ffd14ad9dc2f16ec1b809da34e27e4aa9c292be43d61fef27984f0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/tools_args.py",
+    "bytes": 3627,
+    "sha256": "efdcc89f8ad16715355818a8507293a4d3ccdd0d9dc19ec465d6b5839fa32e8b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/training_args.py",
+    "bytes": 10487,
+    "sha256": "4198d06d22d66172f395b4dc8a9f19dacb095768daf3920a40c57e6bcfb1292a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/params/utils.py",
+    "bytes": 6985,
+    "sha256": "1c3033cf67781c117bade8023020be28afb8a6969509bfbac99d81a0c659d6ef",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/tasks/cosyvoice3/train.py",
+    "bytes": 1296,
+    "sha256": "fd6cdf7ec24047457d2dcec2557919546502b081956de19a7144133f50b54574",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/tasks/funasr/train_engine.py",
+    "bytes": 9117,
+    "sha256": "618453c847c6101c0effbe431cd8db1febf06ccbd958a3418911f40e9609b1eb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/tasks/funasr/trainer.py",
+    "bytes": 3333,
+    "sha256": "f050736f486aace12d8a0453ae8ac3ba998e00a45fe12281a8f76eaab1034ca7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/tools/debug.py",
+    "bytes": 2872,
+    "sha256": "0adc1deed021a7dee2671a8c054665dcfb452f9c7a3bda7567d6c7e7c6a1eab2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/tools/flops_tool/flops_kimik2_5.py",
+    "bytes": 14716,
+    "sha256": "7eff2bf9a281d9091b78ecbfa3aaa52dcdc065f47794aed2952311ecbb9e7254",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/tools/flops_tool/flops_qwen3_5.py",
+    "bytes": 14949,
+    "sha256": "e415be49431c4601410098ba001523c53d04d2e7f679ab940cf4c98d9f10383e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/tools/memory_profiler.py",
+    "bytes": 3728,
+    "sha256": "56ae9cddcb5b783122acfe9f2b82c3d5de6aed58e3de563775546a991bd173bd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/tools/profiler.py",
+    "bytes": 6739,
+    "sha256": "e0ae986e14029089e312948ccca02e0bdd5f4bd81a27e2da82ae1ebd33e926a2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/train/train_engine.py",
+    "bytes": 14705,
+    "sha256": "d02dc1268ccdaa6b47fcbf896d7a04373f1155766031283694aa6fa53d223a66",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/train/trainer.py",
+    "bytes": 14183,
+    "sha256": "8da72a1502f3fcbbe704f7e1360acae3929faee91fb47a4f40fefd2ea19e6f35",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/train/training_context.py",
+    "bytes": 879,
+    "sha256": "95aeb6c23b835e4e9585747f66a53c172e4352d02345ba10b4fd6ae0d2e184ff",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/constants.py",
+    "bytes": 354,
+    "sha256": "a2266ba15d510bd927e6f43a29c1f912fbbc26d1fb4297677ddabd034b041294",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/decorators.py",
+    "bytes": 341,
+    "sha256": "aad68282fc1da4e2922314e7403134b6d077af9dbdbc77bbca1a89202d75121b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/device.py",
+    "bytes": 4580,
+    "sha256": "a590a61f7fe838fd13fc8a0818ee58fc99a1c24d8ca31ff1291fa8b2044971ba",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/dtype.py",
+    "bytes": 496,
+    "sha256": "5e1db8e0f5e1ba3402f5fceb08025042c36f86a6406f357c72444005f3c61ad0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/import_utils.py",
+    "bytes": 271,
+    "sha256": "641cbd4812370c90285c8d79a2cc8886548ac30b42112d6b6ec79cc70d457762",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/lora_utils.py",
+    "bytes": 12136,
+    "sha256": "74b5e66d2054456ace5fd695e9e606ec681f7f75e1088b7ab60e997cfb06511c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/lora_weight_manager.py",
+    "bytes": 13127,
+    "sha256": "03e715fffe0cd0c2baca1357b056200ebc71ddd3ee5eff6372e15eae694c0766",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/register.py",
+    "bytes": 1775,
+    "sha256": "92e5656f32cdfcbab9764b5f538f5e5dfccac845ffa4d2c778479468778cfdfd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/utils.py",
+    "bytes": 7181,
+    "sha256": "9dc41ca113327cfdaf293afdfcc1c60b3a59e674283398287164d864dbd17941",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/mcore/models/qwen3_5/gated_delta_net.py",
+    "bytes": 33718,
+    "sha256": "2c8469ccad5e909922e1041244ae9b1d8a174f8974fc6d88d86fa2befbc8ce76",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/mcore/models/qwen3_5/modeling_qwen3_5.py",
+    "bytes": 50269,
+    "sha256": "b2f54780609d0db8ff95efb3f7471fdf79b81aa28d394524c62d888cd5285528",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/mcore/models/qwen3_5/modules.py",
+    "bytes": 68167,
+    "sha256": "fc0c8aa59b6cbc03e96f8253e25f7bfac705be58c329685be4b7ea2d250761e6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/mcore/models/qwen3_5/qwen35_config.py",
+    "bytes": 10596,
+    "sha256": "6a1db1fb51850549b79119d5b85276c4666ffb8fb5d5d16835ca8af1e19a5928",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/mcore/models/qwen3_5/spec.py",
+    "bytes": 8664,
+    "sha256": "1c954f844ee55ad8fb70c6834c0736e1c579b56f06e1ec6ae7642d93ceaf5bfe",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/mcore/process_group_configs.py",
+    "bytes": 29327,
+    "sha256": "dbaacb5115613a5aa77c54343adae71c15c491cdceb0eb29f4b1f86def7a8e21",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/__init__.py",
+    "bytes": 71,
+    "sha256": "0b13e15b92188c467e28f9060ef77e9acc5debb9e31520aa735c48c6d611cc3a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/autoencoder_kl_hunyuanvideo.py",
+    "bytes": 36865,
+    "sha256": "e7c752e2e0c90c39e7e26f5d9bbccc6b73b25a8468006477080b8def9bb01b78",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/base.py",
+    "bytes": 3812,
+    "sha256": "97ff0f647702e82f1bf28069faceaa75004b23e0c8413f813ecf28a94d6787b2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/casualvae.py",
+    "bytes": 22772,
+    "sha256": "26efa2a505692f9c0d5c7342d74044cb7ef03889c7fea3552c367b36c647bdc9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/contextparallel_causalvae.py",
+    "bytes": 36192,
+    "sha256": "b560e7b77ca21a90e428d44feb5ecc65b67aba57cb887323d22ac21c74c224a9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/diffusers_ae_model.py",
+    "bytes": 4134,
+    "sha256": "221262ade99c2c2c80531d29d46d5c232606619674714bcdf050f51c1d876ded",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/flux_vae.py",
+    "bytes": 1735,
+    "sha256": "e3b33c6c7b43e00288a590b99ca7612e6991ae968bc77aa5044084456d86b254",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/hunyuanvideo_15_vae.py",
+    "bytes": 35870,
+    "sha256": "294ed34ffdbd9af96cbf769e20fa37210b7acae2747864befeccaac30d139ad5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/losses/__init__.py",
+    "bytes": 153,
+    "sha256": "f85dbac284897b13a081d5682370d2238c9d5bc233e8651fc5bb05536696f04d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/losses/discriminator.py",
+    "bytes": 2667,
+    "sha256": "6abbe1531f93f0f16e65e793cc16b6704cd81141090d466c9faaa2827117849d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/losses/lpips.py",
+    "bytes": 4242,
+    "sha256": "a8f2ee86ee7b16b39c865ad3b221488188c054e3a27a4487f0635f81bd5243e9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/losses/perceptual_loss.py",
+    "bytes": 8080,
+    "sha256": "01c88ae57dd426fcf0d6502c7c5f511ba75e9a806c2c0d5d21d51d1aa21451e2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/movqvae.py",
+    "bytes": 6286,
+    "sha256": "e003411bb7f41c7891be4073f110f19ca556fcc7074151dda98e53d7f20f4942",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/stepvideo_vae.py",
+    "bytes": 30296,
+    "sha256": "647e6a3731f91e39edfa459a09fa767e6308b489f28412c4be3e448e95f66f72",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/training/arguments.py",
+    "bytes": 4254,
+    "sha256": "2199be0938c7581f68335cd0ba45232fd559f7b0b479e8df80af7a86856402cf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/training/global_vars.py",
+    "bytes": 803,
+    "sha256": "2671718e7b02d8d0871b6e6163486dcc1d7a312b4715ee8792e55794d0d23f25",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/training/training.py",
+    "bytes": 10812,
+    "sha256": "79d2a099a90307d781d88ea4f5694ee0aede8ecc0d83ac6704d18ddfcdb5a9cf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/vae_temporal.py",
+    "bytes": 16232,
+    "sha256": "4e09b6b405652ad8e481b05f4fe93f354d99b60d8228da630b2bec12d206cd16",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/wan_video_vae.py",
+    "bytes": 5812,
+    "sha256": "8a3923b0fd3445f638d19dceae8646c2999fcd94cd64e0c85d690f9fa849f172",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/ae/wfvae.py",
+    "bytes": 24776,
+    "sha256": "105fda82aa7772ca5d998fa07748160a6dc368c1788b6e1ae18ffd81d0ccff0d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/audio/audio_model.py",
+    "bytes": 11263,
+    "sha256": "53630a37eadac9813b7a4a06e4bea7c67c3915713d38f5f36913558c40ca7885",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/audio/omni_audio_encoder.py",
+    "bytes": 3148,
+    "sha256": "9d637041a1df5ab157d9ea103377af087a86f906fcc543eb8e2af96043778871",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/activations.py",
+    "bytes": 713,
+    "sha256": "d00d84071b2eac76025ad19376f7415a94acb1558a151142a790d0fb7a6e54f0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/attention.py",
+    "bytes": 72463,
+    "sha256": "58159c14637c9ee894384df2025a8c50009eb9c625b9fea5f7ad9cc5667c5cbf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/blocks.py",
+    "bytes": 10546,
+    "sha256": "bb6f7f23e186db3f19a954445663e06761023279b71707a0aa0d0b70159ff2bc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/checkpoint.py",
+    "bytes": 1765,
+    "sha256": "edb4096818b58e1c85e179fda5d14f02ef436cf66a28d66466974057643bc9fd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/chunkloss.py",
+    "bytes": 11473,
+    "sha256": "70cf2d5b5b6a022c1d595c9a139d48de90a0c07d1129997ba7b7e68fa64af19b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/communications.py",
+    "bytes": 25645,
+    "sha256": "4739b1363927d083c93fabc3761442e81d16495338d8c0ef3926b97822eeba6d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/conv.py",
+    "bytes": 15241,
+    "sha256": "80582557210a563826e1f19eebcfd8c51676c9021fcd3b14010b7cb889a41fec",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/distrib.py",
+    "bytes": 1662,
+    "sha256": "78cbe4ce8f21ef58c2e71e008d1635a69620c0d73252302116dd6300ad99e54f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/__init__.py",
+    "bytes": 2378,
+    "sha256": "a1f8d2889f1e0649f81f6268f42881041e3f0a1d99ace7081ecee3f81d38b3d3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/common_embeddings.py",
+    "bytes": 6216,
+    "sha256": "7e77b49365321a5e133c93f07f4e428cb0f9089ae75676aa1760f12efc568475",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/patch_embeddings.py",
+    "bytes": 21854,
+    "sha256": "0159ca84a51d37c279975011eeeebcedaab7e549937ef5a21e50c766ebe0cd21",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/pos_embeddings.py",
+    "bytes": 29756,
+    "sha256": "50dd94c7b1a33f9b34e5e0753b8157ae992eead1461250d11f36893028823e75",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/pos_patch_encoding.py",
+    "bytes": 8024,
+    "sha256": "b95adfb74219e81ebe1430ed4d5752c892310720bbe5d31fc68b15b651846ddd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/rope.py",
+    "bytes": 8824,
+    "sha256": "a8eb758262af8e1219fe533bcca8dbf0c1c16e85dcadd7ded400e198af5b4409",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/text_embeddings.py",
+    "bytes": 8247,
+    "sha256": "c47fd3461d5a06df6e8d5153fbc40cba7d601cfebdd9ce3cb3bb5faf533dd655",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/time_embeddings.py",
+    "bytes": 1798,
+    "sha256": "adc818fbabb731f0655bf269377dcf3bc87b6a610104b279eb6db80c6c766b36",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/embeddings/time_text_embeddings.py",
+    "bytes": 1218,
+    "sha256": "421b0468b816d0554f2aafcdaa31899fc479b1be6038689f2f217bf22ff87205",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/ffn.py",
+    "bytes": 4147,
+    "sha256": "9a71623c10550cf5445563154bd3c06d499ba4569e3f6f40ff397a2faa4300af",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/fpdt_layer.py",
+    "bytes": 31458,
+    "sha256": "9c447ea66a8d95c8f12475a2b7da386d3d9ba49903b4da38d5bc580432732209",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/fused_moe.py",
+    "bytes": 6284,
+    "sha256": "5107de0b044bc3c434af65788d0152f1de6b5d344eb595985822e4fd4f4317d1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/gmm.py",
+    "bytes": 1253,
+    "sha256": "31fa86a5c290b4179c5d50b8b07052350e6fbb6687df82c187cf8cbb8f9c4f13",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/linear.py",
+    "bytes": 308,
+    "sha256": "bbf614ea6942a5832d7ba4878efaa460b0a5cf613c40b17c029a8c0297ee6328",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/mm_gpt_model.py",
+    "bytes": 19321,
+    "sha256": "c4bdc46eb4990b430bc51e0ea1b721c9b1c33a9838467f8e1c6695430649052e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module.py",
+    "bytes": 1761,
+    "sha256": "11a354c5daae678ad8d7b27e9242d8cc109a24267ceb2d895a959026b73c9c2e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/deepseekvl_layer_spec.py",
+    "bytes": 2987,
+    "sha256": "28cbc5387e6c5b200eb842e088d142a9659d4bae9493b23fbab6926488b9ff12",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/get_layer_spec.py",
+    "bytes": 2925,
+    "sha256": "0c7962737e2b0ab988e840ff56f0b27c74cbf8d00086eae0838dc7c38b24b53d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/glm4v_layer_spec.py",
+    "bytes": 9093,
+    "sha256": "7aee92e7548b36cb73a9ff670ea21f8f6003d2c60c25078f91270c034410059c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/internvl_layer_spec.py",
+    "bytes": 3190,
+    "sha256": "684ed906c11c0cf56f75ff1dd3fbd6cf65816bea2e13bce7a5c47edb0b28321c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/llava_layer_spec.py",
+    "bytes": 2257,
+    "sha256": "e06e54d27c88964343479418e2d6a0109956a7dff32d2ec1239c65d109d14e9e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/qwen2_5omni_layer_spec.py",
+    "bytes": 2228,
+    "sha256": "3c3e65f5a70fa2de58c46967afbd1099787c958414dd275cc63c9041025d304b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/qwen2vl_layer_spec.py",
+    "bytes": 6267,
+    "sha256": "c12c197a442a13572dc6d01efd1794094cf125c89f201327a33d587340f4f611",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/qwen3vl_layer_spec.py",
+    "bytes": 6299,
+    "sha256": "576cfc337af0afe24ec37ade5abbd4b7646e2fe4b79d42c09ac03e718afac0ae",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/module_spec/videoalign_layer_spec.py",
+    "bytes": 3682,
+    "sha256": "1207fe81a809304b8156208cd0ca4fb471937a0724c057d2cbc7e5782e4a5cfa",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/normalize.py",
+    "bytes": 9308,
+    "sha256": "7e97d33ad4e8bfd02b9007a716d2652d41c8c3292783eed5ac7466800feb9b23",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/regularizer.py",
+    "bytes": 2068,
+    "sha256": "9381a095865798e4a72cf704fa70f9adc0876d94977b4a78b737e53c097f1010",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/resnet_block.py",
+    "bytes": 15335,
+    "sha256": "e0f9de5e3308522112c67e75c91203f457c272f01d6dacc4ade884f99679dd85",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/transformer/mla_dot_product_attention.py",
+    "bytes": 2283,
+    "sha256": "b3fc28741c083c82ac39d621873b81f3077510c140d25e4593a9feaf9e8adb5f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/transformer/multi_head_latent_attention.py",
+    "bytes": 23005,
+    "sha256": "14b8c170156d95f69c6c0e83d9cca1009c348c6370f32cfb024da4c8001b94f3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/transformer/multi_token_prediction.py",
+    "bytes": 35608,
+    "sha256": "a506041c22a08e0935ef9cea7b9e31f457fdba47e8b959f056c7b232a2d64f88",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/updownsample.py",
+    "bytes": 20229,
+    "sha256": "7c3b67b39e812dd855239493598bd33486b50f88de862e1f542e610756998037",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/common/wavelet.py",
+    "bytes": 10429,
+    "sha256": "806cfe5be852001df81660c7f229c32173f35c1f1e92f3ad4b4f6715b44659af",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/deepseekvl_model.py",
+    "bytes": 22777,
+    "sha256": "160c73a27a7454ca36cd9d9356421b263fd3f85ce4c020073c3e7c2d7f677c0d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/__init__.py",
+    "bytes": 75,
+    "sha256": "f03c9348ce3570942e27b7aaaa06536b0b53be7942245eac5d2434d394a3d19a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/cogvideo_diffusion.py",
+    "bytes": 15979,
+    "sha256": "fe7a0ee8c4be4e0050d55de425480c2dead19a20b0841e95c4b746e45c770dc6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/ddpm.py",
+    "bytes": 25508,
+    "sha256": "82233d9aa507ba6721852fe4d5c4826e301796e958e6fe727e1ca5eabf697523",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/diffusers_scheduler.py",
+    "bytes": 13252,
+    "sha256": "009ffa4f54a0c5d3d65fe203a20082164369013ed3db765eaf7720f2a96cb35a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/diffusion_model.py",
+    "bytes": 1768,
+    "sha256": "ebe7cdc23eb668498c0b185326777e2d67f1fb6e62166b70c59d9e7fbe69bc0d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/diffusion_utils.py",
+    "bytes": 10475,
+    "sha256": "f22d34aae059c22f61199c7f3c7ce3799e5d565132333ce7fc323dea7f533b5d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/flow_match_discrete_scheduler.py",
+    "bytes": 14587,
+    "sha256": "6f2de697bc880341169cf7548f4d6d67517637873e09e9908ec2d63636b5d19b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/hunyuan_video_15_scheduler.py",
+    "bytes": 19443,
+    "sha256": "89131471651a5df3794d69f19a85eff66f97d08f6b7d2c79021c8f57ca660aa2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/hunyuanvideo_i2v_diffusion.py",
+    "bytes": 5552,
+    "sha256": "a015b333e0666e316ec95503adbcf70f331d593853f39e1f95529880387240cf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/iddpm.py",
+    "bytes": 7601,
+    "sha256": "2119406b31140b6abb1047484349ec54be008f660042c912ab8ad5386ce361b6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/opensora2_flow_match_scheduler.py",
+    "bytes": 3846,
+    "sha256": "a5154faeb57eecdccd12e25c597104e0b568d8df0f60a07b32ad2a16047de244",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/opensoraplanv1_5_scheduler.py",
+    "bytes": 16058,
+    "sha256": "e92f0b95a366c95d24f18451a1c66167ac3e714378387609cab438246cbc2cca",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/rflow.py",
+    "bytes": 7705,
+    "sha256": "c2dd1f864a56cac5dc60106979afb1bfbd0faf2cfd0c3fffbcbf394912ac42ae",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/diffusion/wan_flow_match_scheduler.py",
+    "bytes": 6350,
+    "sha256": "b5339160a5d348b7e63a2a3cef2a95cc78709fb5afc5418247ce6a76dddfec11",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/internvl_model.py",
+    "bytes": 20873,
+    "sha256": "790e2042c8246bb1baa3e8e200789ef3c8ded7d5e633800976e42d4bd84b7c9e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/lumina_model.py",
+    "bytes": 3039,
+    "sha256": "ddbe87282559e827bd010c121ed5876be08b1f8adef5e5bb1685e626aff78766",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/omni/mllm_model.py",
+    "bytes": 3069,
+    "sha256": "0c2c99b3a55503e2f4d5f61922baf5391332611c35d77adfd033f56806723740",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/omni/mllms/__init__.py",
+    "bytes": 85,
+    "sha256": "40ce36bd5ce51957bbd928653e07be0299b36b46b8a5c35e06d7f46953f13979",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/omni/mllms/bagel_qwen2_mot.py",
+    "bytes": 31003,
+    "sha256": "4b5d649f3db88fff0475fd7bda080bd1354d6013ce01c735f3e5b3de95e57c3a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/omni_model.py",
+    "bytes": 3342,
+    "sha256": "bc10b68c8ce8d8ebfe9e471cba9ffef0e96deedc3e185f4d7354112e8632db20",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/__init__.py",
+    "bytes": 68,
+    "sha256": "5f6f9c4470283b0cbf19c9c6bc62b2c001a04026c31fadb0f60ee915dcc1ee91",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/__init__.py",
+    "bytes": 664,
+    "sha256": "33958f3734eed6293c5ba582351525678c0def4bc2c9215fe3a8e7908979eece",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/hunyuan_video_15_dit.py",
+    "bytes": 40631,
+    "sha256": "e4f09d9f4f9877a5aadbe2cf54322a91241953e30035aee2b1f6d99c9c672605",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/hunyuan_video_dit.py",
+    "bytes": 64946,
+    "sha256": "eec4c65bc1d3714f29aab33175a844fb82678c680b265c60febba54047a57582",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/hunyuanvideo15/attention.py",
+    "bytes": 12600,
+    "sha256": "b8ed5fa3aeceab042891da56ad203e4af59066cc5ff0a15eb535242cad1d35d3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/hunyuanvideo15/communications.py",
+    "bytes": 11554,
+    "sha256": "0f07d6d9c2320753fa2963c85cccaee29f5230cb0c6944b507e009e15f37db2d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/hunyuanvideo15/embed_layers.py",
+    "bytes": 25738,
+    "sha256": "db4249b09690b7c96e632f5fba46e99ae58c7e621e71fa10b8a2539fc2c39af4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/hunyuanvideo15/token_refiner.py",
+    "bytes": 10383,
+    "sha256": "26d344b6303e7bc9b6cd4159c85994cdaf39c340ec8ee6151d93b2581bda9334",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/hunyuanvideo15/utils.py",
+    "bytes": 17044,
+    "sha256": "bbf707e92cefa815e649423f6c0a2feb5ee49f031c34ec3cc10c0e1b8285e622",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/latte.py",
+    "bytes": 22,
+    "sha256": "9add4481dc0aac4f579268d83b4a77e00d074d71e9b16b5d4e16c3e2a1003b7f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/lumina_mgpt2.py",
+    "bytes": 23133,
+    "sha256": "9f9df73414879612f77cd9ea4be58faa0f6de8c32463ce479ef0cc8ec362d076",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/mmdit.py",
+    "bytes": 22566,
+    "sha256": "e2028e1106be484d54715b79d639d55e7f1b104aa87364d85814d8ea9ad257a7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/pt_dit_diffusers.py",
+    "bytes": 39545,
+    "sha256": "3aae4b15f7e9fa3707aaa0e212b0b2c61f25b24233a73d75c1f9231c793dba7d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/sat_dit.py",
+    "bytes": 44265,
+    "sha256": "90e5f79dec5c24d2aa76498ffcd95466d472fcbc0d7d21f7c7c071a13c3af71d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/sparseu_mmdit.py",
+    "bytes": 41137,
+    "sha256": "251f1d5e80bf909cec7b630449afd49ca17b2ef853ba3ef0171e5b1d078a318b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/step_video_dit.py",
+    "bytes": 29268,
+    "sha256": "8548da1b0621efac1ed3c75fcdd7b62ad95cc9fa9653b0a315f0b71cd6515b65",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/vace.py",
+    "bytes": 14052,
+    "sha256": "41c1a4ff0cfd9e85011262e30925f8d32eb0491c2961857ea35257a44caffb63",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/video_dit_sparse.py",
+    "bytes": 40690,
+    "sha256": "afb08c6dbe69caa01896cd03b77cc9dc08a10e9c04e155dae746edc93e1cef5d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/dits/wan_dit.py",
+    "bytes": 46753,
+    "sha256": "01efa2c41b360e25e6461b4daacf7b04a43d3265a61068a381743ba5c82718e9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/predictor/predict_model.py",
+    "bytes": 5756,
+    "sha256": "59bcd7b843d7cb452a054adc412f9959c75cf8e02eadb69856ebfd5ee931bc4f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/qwen2vl_model.py",
+    "bytes": 16036,
+    "sha256": "e2c88f38f56d66c8230f5fa635249b9daa4cda07d7366a1138f561e4cf65dfe2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/reward_model.py",
+    "bytes": 7529,
+    "sha256": "7cd45a1c12ceeba2bf125f9fbe1ad01ecdc4df8bcf2c3a4303d64aa4e2b94ac0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/sora_model.py",
+    "bytes": 17844,
+    "sha256": "06c4e2fd65e12636cc2eae88a07d47634f827e711de482210f4f9b6796d9e4f5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_decoder/moe_model.py",
+    "bytes": 31744,
+    "sha256": "1f90ac8c5d028d1600f186eb2b05a3ed322d3f41d24fd5d007295b52c1eef6b6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_decoder/qwen3vl_transformer_block.py",
+    "bytes": 12274,
+    "sha256": "6983cf81270c0ed333e0f69c37f8f17e752ee6bac964b5d0aae943c216e6b366",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/__init__.py",
+    "bytes": 111,
+    "sha256": "5ff80f053258a268c2845055e502833707fcb7b340836a5e2c970f5cbf0b09bd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/hunyuan15_byt5/__init__.py",
+    "bytes": 8355,
+    "sha256": "d5286e8e7463d090ff93a0934223348ec6fd0a88db69a69b0a28bd817669948d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/hunyuan15_byt5/format_prompt.py",
+    "bytes": 3248,
+    "sha256": "37514647f1b467ebb262faba2cd629bd61f3fa8aa4d8e0f463e2c410702915d1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/hunyuan15_glyph_text_encoder.py",
+    "bytes": 3621,
+    "sha256": "4a040e8239d7e62f695d2943411eb23ec5cbc41822b1267e83e15e6e0ad4b2eb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/hunyuan15_glyph_tokenizer.py",
+    "bytes": 6136,
+    "sha256": "a18d618a4e794b00741b62886ce002ee6972e834274ca36c998caee75c5dfa54",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/hunyuan15_mllm_text_encoder.py",
+    "bytes": 5679,
+    "sha256": "37337f00402b5807f93109a678065e440a68a77b81be79360299063af30bd660",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/hunyuan15_mllm_tokenizer.py",
+    "bytes": 3162,
+    "sha256": "f05835d286a7a8ac911b17061e6e90758f30d728effab09ca11830d6fd330fdf",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/hunyuan_mllm_text_encoder.py",
+    "bytes": 6075,
+    "sha256": "0da6e2bfeaa4b3fb6a952c7ab1bbe83c98a4c9abda2c8590175ae263ec54e49f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/hunyuan_mllm_tokenizer.py",
+    "bytes": 1781,
+    "sha256": "c9dd183e7d5096baf43de2e694b49801dbf5b6267aa08958bb2150dbe12be216",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/lumina_mgpt2_tokenizer.py",
+    "bytes": 3177,
+    "sha256": "241cc7ba2eaa3084f86c1d14538f37af55a870061bbbf1c4c316696861125d3c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/stepllm_text_encoder.py",
+    "bytes": 9577,
+    "sha256": "76a5ab1b04d9e9ad06403b97519fee9c9d8809cb4af4aa16ac6231c4d327f88c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/stepllm_tokenizer.py",
+    "bytes": 5554,
+    "sha256": "08365a54a8f9d3a3790f7c4cfdb292709af531adf6a9a6addc58fb05c6f2e9fd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/text_encoder.py",
+    "bytes": 10436,
+    "sha256": "c0cadfa4d5e8f869a0cfa8a8c6b2d96286754fac5312e2ccd378de547086557d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/text_encoder/tokenizer.py",
+    "bytes": 3180,
+    "sha256": "48ad86c2e50f4173d4da88298381c8d19cefffb78f7e7ea3f31935a464efceec",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/attention_utils.py",
+    "bytes": 6662,
+    "sha256": "13c50b562a756f31d0b39423eb213e31ae71eda43a98cac12085e5a0391a27e3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/base_model.py",
+    "bytes": 34245,
+    "sha256": "a95f8cf0e615e4439c9509ceb88fde341cbd129c51eb55ce3d3f18f9251a8d20",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/configuration_hunyuan.py",
+    "bytes": 13132,
+    "sha256": "dc5270df5811992712c44875e8638006d7f322891b0f6351e7f752f748aaa244",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/cp_utils.py",
+    "bytes": 8985,
+    "sha256": "efa69d886810ab82887fa170c208ea35f5427b872942a0a9d8ab3c17390dd466",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/custom_model_registry.py",
+    "bytes": 7331,
+    "sha256": "2decc92e2862bf692563aef2579105e4da658db3c478bd7f5e1457e1b75396fb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/glm4v_moe/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/glm4v_moe/glm4_5v.py",
+    "bytes": 3077,
+    "sha256": "937a10630f8b61032f31938fe5ab78bc085da3a795af5f54523ab8d14904ca48",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/glm4v_moe/modeling_glm4v_moe.py",
+    "bytes": 15983,
+    "sha256": "561ec030d43ca3dd7924c6324e0e3ebe8509b9f81bdc045c297a3674f6a30d60",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/global_vars.py",
+    "bytes": 1153,
+    "sha256": "447b8edc7d5fc1d7e3a25e0ef9c6a221a5621cc8e5b6e823f17bddf222dcd69e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/hunyuan_image_3_pipeline.py",
+    "bytes": 36905,
+    "sha256": "644c53ef3c46610f1df59a6203bd55a525dbc0038ff03c9ab5c3cc3338709918",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/internvl3_5.py",
+    "bytes": 2155,
+    "sha256": "6772389ad1f3f986c0f5799a6a62efd633ef1290a1cae12baa00a2a5c73c7d6d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/mistral3/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/mistral3/mistral3.py",
+    "bytes": 1904,
+    "sha256": "116778c75d568e9941008e89eda60bed37bdef9c2bcc09fa7f0bd33bd69214b4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/mistral3/modeling_mistral.py",
+    "bytes": 3848,
+    "sha256": "fffd1ed04691971857fa18eed3eafb694a82bf912c0ce58bcff16a1e89d699c9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/mistral3/modules.py",
+    "bytes": 4129,
+    "sha256": "6e47966953066c47fcb92eb68cecaafcfc299cf93fbb41c19e92f47b89a13395",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/modelhub.py",
+    "bytes": 2555,
+    "sha256": "8728d1f61670997fc8728d8de35e98f6db8c86a1f8f5f58c538c3bd9d6d88ec3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/moe_utils.py",
+    "bytes": 5561,
+    "sha256": "739a02491ebedb99c2cb0c273ff8f80d73c586cb3a7542e3cb823812459de6f6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen2vl/modeling_qwen2_vl.py",
+    "bytes": 3832,
+    "sha256": "9dee2f4975a4412d7d7b0f31f1f177a4f296407d1468e88db27d151c14b76b8f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3omni/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3omni/modeling_outputs.py",
+    "bytes": 574,
+    "sha256": "74721625b4efbbdb93a48fa348aff9064395123230eb7de39679242f28227031",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3omni/modeling_qwen3_omni_moe.py",
+    "bytes": 95419,
+    "sha256": "faf7b97b9b3812c93a9c4ccae8dc259d6b1e31b0b58176a8fe60f720ba877d06",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3omni/modules.py",
+    "bytes": 22794,
+    "sha256": "ed72b825f86d8383193cac51cf63ef385e553a8d43255a2776e346ffae389629",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3omni/qwen3omni.py",
+    "bytes": 7043,
+    "sha256": "ea3497f9044afd9a675abac5f0a42f9bc3daf342490f97325776ff0960d8cdd1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3vl/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3vl/modeling_qwen3_vl.py",
+    "bytes": 62345,
+    "sha256": "b727b6205a1a475be680dd1e499fe29a6995e8be6a4ec4ce10d16d67b67e0e5b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3vl/modeling_qwen3_vl_moe.py",
+    "bytes": 22193,
+    "sha256": "967f447abd62834f06c9d0f9a72c767e586626625d78c0261d86d2098da6a771",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3vl/modules.py",
+    "bytes": 41130,
+    "sha256": "28017be030b4c7fd834fb077f68f5506d94c08ea7a4c80bc56f641b2aa377d37",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3vl/output.py",
+    "bytes": 4271,
+    "sha256": "11fcc5fd629ea1a03877cbf77e23766eb18157c2a6f9bae29ef1630a314ae7ba",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers/qwen3vl/qwen3vl.py",
+    "bytes": 8602,
+    "sha256": "fb7e670fb041dc43567c9b96c3c2e0dbcc76d63999fea62c9db6f71f61726a73",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/transformers_model.py",
+    "bytes": 13845,
+    "sha256": "dfb1662116842afe39b461302e704f72b0025e377dc315d5b8b0baed1f04bcf7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/__init__.py",
+    "bytes": 65,
+    "sha256": "00e47cdfa99a05cd34219e794c69c5fdc36ddb171f72a8130661c25b642ec4a7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/projectors/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/projectors/deepseekvl_mlp.py",
+    "bytes": 4816,
+    "sha256": "056e4d48429f6bca289ce1a1a1b45e8203cee4ec90504c42449b7446adafae4e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/projectors/glm_mlp.py",
+    "bytes": 1282,
+    "sha256": "cf085f903631e2a600502edf8000e1fd6ff3808543cb0052c6fefdff1a6d8f9c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/projectors/internvl_mlp.py",
+    "bytes": 1277,
+    "sha256": "949c83f5e95642445f2e121f9288547455650c1836721e412a8a1b1d102d9de4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/projectors/multimodal_projector.py",
+    "bytes": 3674,
+    "sha256": "c58e8915c88b07848d6affdaef3aa431a5e9733994bd0b9dad43b7bd0eec9921",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_encoders/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_encoders/clip_vit_model.py",
+    "bytes": 5847,
+    "sha256": "c969455ff12fc896b7f7d09148b94c3674f031200b15443bad517e761f739f05",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_encoders/glm4v_vl_vit_model.py",
+    "bytes": 20233,
+    "sha256": "192c48378a0238d336bf5f8ece371c6ee3e00aa5b12177002071b0b82454a755",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_encoders/internvit_model.py",
+    "bytes": 17976,
+    "sha256": "699288c3eb7360a9cbbd5159901e16a9d90dacc3e6f02c85a444ca818bf81832",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_encoders/qwen2vl_vit_model.py",
+    "bytes": 27877,
+    "sha256": "125b674eba96ce49ac8e9340d695a8147a8da92d745d847c06c3d18101426068",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_encoders/qwen3vl_vit_model.py",
+    "bytes": 15583,
+    "sha256": "1f3b1ff3983aafb790c867fa4a7a7f530f54de9d5f16f8295b63874ebbd4bcbb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_encoders/siglip_vit_model.py",
+    "bytes": 31152,
+    "sha256": "5dd4da2113abbbb6a92cd2dafc1cc2dd1dcb1903aed4c48206168621b9431735",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_encoders/vision_transformer_block.py",
+    "bytes": 28928,
+    "sha256": "82a172b93d19841635d29aca6aa2440135dcd81dd439344df4a0e72e596cc4fd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vision_model.py",
+    "bytes": 6110,
+    "sha256": "92ff2e596f8a74e236ffc1c0daaf115153a89a1e2f5a493f7eb01a750b2168de",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vision/vlm_attentionmask_for_llm.py",
+    "bytes": 61477,
+    "sha256": "598b4c923a65822671033f12928b617344c051e49bf2771ac9f936181bb40e1e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vl_model.py",
+    "bytes": 16202,
+    "sha256": "485fdcdca1a5fca5e3104999866a0e0f11ee814c1b353f993103ddd0682b9fcc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/vlm_model.py",
+    "bytes": 38457,
+    "sha256": "a84fe27cd9ddc7f95f17a6a84cea0d3b88eba1cab8580fb38d5175b0fb4ed81f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/whisper/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/models/whisper/whisper_model.py",
+    "bytes": 15219,
+    "sha256": "49a9edf2327d6c1ac70efc7554c2bccdb32fae20f2cc04d7b4cfe446d312998e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/optimizer/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/optimizer/muon.py",
+    "bytes": 8309,
+    "sha256": "43e793d3bca0543d8144e887155c3d4a19fc7bb3f8f36bd5d5ff64c543237ba2",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/adaptive_clip_grad_patch.py",
+    "bytes": 20085,
+    "sha256": "5b811c0cac5188f3652a1cb2ec95ef43dd24bc11a43e27e74be608d87b0c7de5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/bridge_patch.py",
+    "bytes": 11270,
+    "sha256": "c945cac0c3fbf1d6cbbca72afcb6c500b426b84d0c2a3f7ba7592c08db67358a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/canonical_layer_patch.py",
+    "bytes": 16750,
+    "sha256": "7d1cc225742e3740177fc0b378f2229333a9027434847357260bb276a86ecffe",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/dummy_optimizer_patch.py",
+    "bytes": 4254,
+    "sha256": "748596f960b269a2a271a3990c863b05afe3e45abc1688423f1b7e7202064908",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/ep_patch.py",
+    "bytes": 1301,
+    "sha256": "a9e2e9463a0db11387c88cbe136707dc385490569ac281f1e7514de4bab71b0b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/fsdp1_patches.py",
+    "bytes": 11094,
+    "sha256": "0d77b927ace2c0c854749404c91b7be6efac354a9a0b17b35c4724e4ce41041b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/fsdp2_patches.py",
+    "bytes": 848,
+    "sha256": "b17cb010ae9d1409f70cef2d5c050d875569baa8122888ea4a380c8016f7fea4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/hetero_pipeline_patches.py",
+    "bytes": 26027,
+    "sha256": "b5327744db4bd1d999f3f3becba14f13fee1b1e14d3c3b4da1990740ba82928c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/infer_fa_patch.py",
+    "bytes": 2360,
+    "sha256": "f2627a1506b3e3cf77356f5f834dda4708c846c0378ac7ed378e0836bd79f6fd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/layerwise_disaggregated_training/distributed_data_parallel_patch.py",
+    "bytes": 3463,
+    "sha256": "487b259eee262fca506be6ae1a67a7a42cc97a608f81f51ab97fa6d8f03ac06f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/layerwise_disaggregated_training/p2p_communication_patch.py",
+    "bytes": 22845,
+    "sha256": "449140a27a8a0543e504f43eafeb02712fd1546a8ed8bbb3c2f22a25c5a6a603",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/layerwise_disaggregated_training/parallel_state_patch.py",
+    "bytes": 69051,
+    "sha256": "f52fb1bc4c944c2cf2bb959afb4f5d0e819354efa515c5eeda46f957b7c6e56d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/layerwise_disaggregated_training/schedules_patch.py",
+    "bytes": 92814,
+    "sha256": "f70f4141e9830466dbe6f535ae2f5d6250ce0065b09b397e66761fef0ab02ab9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/layerwise_disaggregated_training/u_shaped_split_learning_patch.py",
+    "bytes": 11789,
+    "sha256": "00cb55b73861cfb68f144fa374d33967648277009e449dfba2e2a1a84dd05024",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/layerwise_disaggregated_training/utils_patch.py",
+    "bytes": 13950,
+    "sha256": "8eb0b48b5c4886a5eac6201d2be42cfcde4305726dd8fb93bb55abb49abb63bb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/layerwise_disaggregated_training/vlm_model_patch.py",
+    "bytes": 32000,
+    "sha256": "e5e54e2c6241428c2fe1511fe0e77e71c55b9308586e4f7cbc21493dc87dc03a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/models_patches.py",
+    "bytes": 2642,
+    "sha256": "1ab6f426df442a34163d058039068dacd74aa94d3d8b4189f31094d6407013cb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/optimizer_patch.py",
+    "bytes": 17887,
+    "sha256": "c06a4f8230d934240637fda7e7c8becb7a3373b544fd952050fe4139436c7b5e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/patch_manager.py",
+    "bytes": 5795,
+    "sha256": "ae557b593a7dd93d39af12771d3a50aa8574b422b95e5e6118e79de53f5a2546",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/premul_sum_patch.py",
+    "bytes": 1808,
+    "sha256": "a0a4c49508fceb41521db72bd5e85619fa080ba0865914d1d1a404841da07dbe",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/ring_attn_patch.py",
+    "bytes": 13918,
+    "sha256": "82dddf093f3f4e0712d5a6cd94814a5f67c4a5baababcb0bd57c8a94a1088788",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/torch_dcp_patch.py",
+    "bytes": 8975,
+    "sha256": "64b1f5681a309b28e2dc741d0af109fd16e77a337c66a1d02cec99f85b298063",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/training_patches.py",
+    "bytes": 10894,
+    "sha256": "7cde2bf61bb2f66df7e1d537bace30f8dba4645ef1cb0861959df849e43d267b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/ulysses_patches.py",
+    "bytes": 6515,
+    "sha256": "0966093f1126f8857398eca2a603a648a0589bf792cc46d80d428671de4d303a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/patchs/validate_args_patch.py",
+    "bytes": 45301,
+    "sha256": "5fc34358fd2da3c7972dc5d4ddb0554992a8f33faae400fecbbdb17acd9d555b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_datasets/__init__.py",
+    "bytes": 519,
+    "sha256": "e747815de42f1ce0de442219719a2936a6a93b11e1860774600c387d0c7c6ef5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_datasets/datasets_ai2d.py",
+    "bytes": 1569,
+    "sha256": "220755b056c7e205f8e8db8a7b6dba9b712869a2134493c4acf332a03d2d34c1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_datasets/datasets_base.py",
+    "bytes": 4057,
+    "sha256": "20a22c704171e765a4f55cc66838b906458cdcd8673e95b10578df091e100c31",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_datasets/datasets_mmmu.py",
+    "bytes": 2634,
+    "sha256": "7851f66571006d7a8cfb29eb2147b25ab7db9c73e920e37193a64849871e778a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_datasets/datasets_vbench.py",
+    "bytes": 6370,
+    "sha256": "3463ad77a85cefb438276f281b2ccccbc02eb3dfb51b38d4289e7ef6df1a1ec1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_datasets/datasets_vqa.py",
+    "bytes": 594,
+    "sha256": "3c9f08e2158d2b8fc9e7fc82cb54b9f1147d684a372e98289f0e9e9457b7a388",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_impl/__init__.py",
+    "bytes": 638,
+    "sha256": "5815322c46f8545ba94f099c81fd6db05a255ae314ee6d3d29aefe25d6d085a4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_impl/impl_ai2d.py",
+    "bytes": 289,
+    "sha256": "589c686b40676566e1a88f393e4f25f8ec1b773c817b26d84fa2b96a2a54f5ac",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_impl/impl_base.py",
+    "bytes": 9454,
+    "sha256": "2dcc4939107d566dc77221097897e07d25c010bf36029a29bbfb8b13a1278484",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_impl/impl_mmmu.py",
+    "bytes": 289,
+    "sha256": "d8706a51c9026d86ef6265477fc539363b1101ad8cd3d808676f80a3e1caaead",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_impl/impl_vqa.py",
+    "bytes": 3172,
+    "sha256": "1758cb5b2accd0705c3d4628daeda0ec5e46c7bb2afaf577a77895c724ab53e8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_prompt/__init__.py",
+    "bytes": 233,
+    "sha256": "d4672f2bad3af5e59401cc103fab612e15626886e2d8f5e782fddf9e0f504694",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_prompt/build_prompt_base.py",
+    "bytes": 3995,
+    "sha256": "ff0c6d5245ef7822b08dc65e55f40ea0be590eb024197df13c878485fdc67864",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_prompt/build_prompt_internvl.py",
+    "bytes": 1279,
+    "sha256": "62c4bd92a9f553e9490557c0ce50817cc53f616a5351ff9f961ca655c51f90f6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/eval_prompt/build_prompt_qwen2vl.py",
+    "bytes": 4162,
+    "sha256": "9c3dbce2e06092258c1cd530b58069f1f490b13e3d62f0e7dbd0c2ebac711469",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/gen_impl/__init__.py",
+    "bytes": 370,
+    "sha256": "9df03b7c8bebb5092388151ced2b435b543105028a46cf26c35fcc825abd57d8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/gen_impl/base_gen.py",
+    "bytes": 385,
+    "sha256": "4fe94e591178b3ad7c6f3d9ccb4cb72d23dae3e9e13ee1d2c5b2f69ae06db0e0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/gen_impl/vbench_gen.py",
+    "bytes": 12895,
+    "sha256": "854291a1ac087fdebeb6569b3964502bb75ba963f24bcfbd9387b60627a31804",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/gen_impl/vbench_utils/compute_score.py",
+    "bytes": 3712,
+    "sha256": "a9d92c9918f7c02e5a1d94ffc0436bc608dc25bd2d834f047882bd8ee4b4dd2b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/gen_impl/vbench_utils/vbench_i2v_patch.py",
+    "bytes": 7838,
+    "sha256": "9b955120eaa361d41ab820fc6eb0455016a963296755938ca318d84fc171059d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/gen_impl/vbench_utils/vbench_long_patch.py",
+    "bytes": 9398,
+    "sha256": "49888610355229af6b4ae87748ebaf3d1e45eb0fd2b7886661cb90ae25f8b9d8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/gen_impl/vbench_utils/vbench_t2v_patch.py",
+    "bytes": 19308,
+    "sha256": "9c67c35e9970a2a16c5c98972b551a2d631ace366473d068eeee1d1d00ef4bf4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/reward_impl/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/reward_impl/utils/eval_accuracy.py",
+    "bytes": 3466,
+    "sha256": "d712aa51d3195c23d999610e779af97e0ade7d7880991d456d942d45e67af3b9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/utils/analysis_utils.py",
+    "bytes": 14132,
+    "sha256": "24099317b388d04d71731b174a558499d3b86b5530f26cd4481cbf28a6c47f7e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/utils/file_utils.py",
+    "bytes": 2326,
+    "sha256": "175697ead253b01fd9b97353d0759552a1406f5a1cddd6c208d5ce00d6618d1c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/evaluation/utils/string_utils.py",
+    "bytes": 9797,
+    "sha256": "a0ac958eae1f7a00ae4358b77a7c484f1c339b5105d9f589a24af82a2d799fab",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/finetune/lora/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/finetune/lora/lora_patch.py",
+    "bytes": 18797,
+    "sha256": "0359c278c2dda8b7f761edbdbd85351faa809a8bd63c158dd2a16a1645cb1c18",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/finetune/lora/utils.py",
+    "bytes": 3255,
+    "sha256": "a90e9d8bab7e4ba68823368cd3eafee4e69f8b96a0be2f26de72c4bde32dd6ea",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/__init__.py",
+    "bytes": 1743,
+    "sha256": "449c009df68d59187e6ff7468bde25ca1797507932906e9efd74974f0e69e5e5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/cogvideox_pipeline.py",
+    "bytes": 10126,
+    "sha256": "8ea3e41ee422047bba5617fad63b2eb103a6a6130012fed1f4fc93d45799cd7d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/glm_pipeline.py",
+    "bytes": 2010,
+    "sha256": "fe5c5cda66be8add7ca5143c9bb049f194af293f53e6438ed8e2edd43ec5735f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/hunyuanvideo_15_pipeline.py",
+    "bytes": 42504,
+    "sha256": "4f84ba554058731c81413481d297b314eaeb20d037d8c00c15411d6fa25e57ce",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/hunyuanvideo_pipeline.py",
+    "bytes": 13301,
+    "sha256": "ed139e24c25998bd7acc71bd2bf850cdfdff63b4d83163bcbe56acc8727c60dc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/internvl_pipeline.py",
+    "bytes": 14673,
+    "sha256": "5f0f80b33870c228c98139e9fdc827fa36ba852d52ebf7ac0f77c2286db5e40a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/llava_pipeline.py",
+    "bytes": 11726,
+    "sha256": "6c5fba2585904d543ae655a0b77fff8d1622c0482132c0699e6594a6c272e6db",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/opensora_pipeline.py",
+    "bytes": 4453,
+    "sha256": "0d419ec00e1ac0ef550f4549eef8635876860a9f58dfd656749c05eb062f8760",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/opensoraplan_pipeline.py",
+    "bytes": 16931,
+    "sha256": "b5eb2cfaa1df92ec5c1810a64c606c8e3a196a97f60c6c76cd8a285b55f25f45",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/parallel_wrapper.py",
+    "bytes": 11762,
+    "sha256": "6d8f5303f0144349adf188a31a9cffceaa95dcf02b8a84a2207c1c438a8155f6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/patchs/sora_patchs.py",
+    "bytes": 899,
+    "sha256": "c8c366aa9e34e6f5b1ffa6e001810b5923db148f79f3c6296fc742eaa4d63e22",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/pipeline_base.py",
+    "bytes": 1127,
+    "sha256": "503fe80f180183ba33dec1a4db682547f6431e3144de53add800b74dbaf6e6f1",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/pipeline_mixin/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/pipeline_mixin/encode_mixin.py",
+    "bytes": 10799,
+    "sha256": "6f979ce4d7c4237d9dd916df100eecaf4cea7056060ee47685c92d79f625f4d7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/pipeline_mixin/generation_mixin.py",
+    "bytes": 78841,
+    "sha256": "de5b27375b62a3b123e513116a86e3230202381d905da1a0636928c8014a1be8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/pipeline_mixin/inputs_checks_mixin.py",
+    "bytes": 4580,
+    "sha256": "2831ea40421cc4159b6536abfa14e1201bdca58c19b7fb03eaa4904409722161",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/qihoo_pipeline.py",
+    "bytes": 5520,
+    "sha256": "91fa481932f6cfccce6c134f3ba4ed8008fa357b532566af508d9b075febce21",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/qwen2vl_pipeline.py",
+    "bytes": 18286,
+    "sha256": "a34e0ef923bea845b82ab94755c5ade2a28072140b70b363f04dd1467b52488d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/stepvideo_pipeline.py",
+    "bytes": 12170,
+    "sha256": "a3ba119a87bddef26d7d9acb487361359966f28f65fc9d8a6bbf3d2a0924531d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/utils/llava_utils.py",
+    "bytes": 4838,
+    "sha256": "43eac174d23e725f6f298cd450d77dd481b86e74deec6e5754e9f09a77188b04",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/utils/sora_utils.py",
+    "bytes": 10898,
+    "sha256": "c929bd594165480e661253338fa4e202980e6305531e1dd1f1630222f2f4e5a3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/videoalign_pipeline.py",
+    "bytes": 7252,
+    "sha256": "18137a2a5cb55f5dfeb40d47e77d0ca68c7b4de9430865843b67051cbe528d7b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/inference/pipeline/wan_pipeline.py",
+    "bytes": 23727,
+    "sha256": "cd39f183bdae4aee654e4cc8e105128b74fd9790f519a17a02f15e7cd90f4f97",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/dpo/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/dpo/dpo_trainer.py",
+    "bytes": 19052,
+    "sha256": "b64857b147a9735b7c0a5edb16744df7c54391deb9f55a1d860cd31ba5f5c240",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/dpo/qwen2vl_dpo_model.py",
+    "bytes": 2931,
+    "sha256": "ebd47d34074b5fd1001b2492d44e01565ea25ad99281e74a0a1642d9edf73407",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/dpo/qwen2vl_dpo_trainer.py",
+    "bytes": 6463,
+    "sha256": "c9ab78759257e35724f211075f3e36fbdc6480fa9b6c68111777e06dd616c9be",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/dpo/reward_trainer.py",
+    "bytes": 13215,
+    "sha256": "5c575d23c47870e833434312e3ddaeb90b34243500d2506392382a773bf5ae30",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/dpo/sora_dpo_model.py",
+    "bytes": 10314,
+    "sha256": "6d08d2b8bfff34c0dbbf1aea852eedf41c31dae6ddf7ff68d2b33cb0a27decb5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/dpo/sora_dpo_trainer.py",
+    "bytes": 8995,
+    "sha256": "5881e4de546a751c0afa4ec7079bf3e301bba3eda47e738c81d26d2176a08557",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/hyper_model.py",
+    "bytes": 1997,
+    "sha256": "19cb369577b18a4614c5abd9b9dffbbea1c37388505a04bd28ce972780bf310c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/dataset/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/dataset/latent_flux_rl_datasets.py",
+    "bytes": 3008,
+    "sha256": "f47d1cc5b79242a4337013a858177017229d283d10d28e25b7258f443639a90b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/flux_grpo_model.py",
+    "bytes": 1153,
+    "sha256": "dbbb7dad51b78bad9d091f3eb9e8d14e26418049107ffad3326e517c415d465f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/flux_grpo_trainer.py",
+    "bytes": 15629,
+    "sha256": "c552ad10f63d569052afd54271e98cb55d1226025f47fa0370e0697b6fcb5256",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/preprocess/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/preprocess/data_preprocess.py",
+    "bytes": 3522,
+    "sha256": "8f0424fb551dedf696b19aea0a59598abd10c68fc83006fa76b53ee885f6b600",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/preprocess/flux_data_preprocess.py",
+    "bytes": 3261,
+    "sha256": "e763d172fa4a7d9b98d0c30b4e234d4abcd90cf7c903675636aca49f768cc757",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/sora_grpo_model.py",
+    "bytes": 2507,
+    "sha256": "d0224efdecac977ff80780f26a6f9cd638e7dae198eb37aac5df15d23631d6d9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/sora_grpo_trainer.py",
+    "bytes": 24981,
+    "sha256": "605b3990c4ad59d5345ee6fe3c4d981fcc695d425e913c2617d74cd662899744",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/utils/communications_flux.py",
+    "bytes": 5073,
+    "sha256": "c5fef7d513e99eed9a7cd5fbc6b7023593a559ccc747e95b116825f90c5c713d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/utils/fsdp_util.py",
+    "bytes": 3877,
+    "sha256": "c670339a70c84b35b9619d86fd3d5eb990608c770f0654e780f623c489a3f885",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/soragrpo/utils/parallel_states.py",
+    "bytes": 2004,
+    "sha256": "583f57f4e86c7ad1a562ed2bbe2758412e622cbc9d0ed13b4de83fd3700e4025",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tasks/rl/utils.py",
+    "bytes": 4660,
+    "sha256": "ec526ea836b733231ba5e8c6ada3c9e8fe0aab2d509126f47d98ee0e7fa10b6a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/feature_extraction/get_hunyuan15_feature.py",
+    "bytes": 1551,
+    "sha256": "9f4b10ea5d9c38c32bafbb65d423c970cd760fe8060a5394968912716e5a9d55",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/feature_extraction/get_hunyuan_feature.py",
+    "bytes": 1528,
+    "sha256": "32618488c02dc3cfb5dd597e44d45aa8d89c8bd58e8e4cc05b7ad5f2e8bbf27e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/feature_extraction/get_lumina_feature.py",
+    "bytes": 6638,
+    "sha256": "59cfa45918e28c8f99f5396e5748a992d9066f5547940fbe14b9be813d5bce72",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/feature_extraction/get_sora_feature.py",
+    "bytes": 11176,
+    "sha256": "74014a86136713bbb993129ecca9f6031d809a1144e66e904d5006febc80ce6d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/feature_extraction/get_vace_feature.py",
+    "bytes": 12775,
+    "sha256": "46ccececa75563061b49b2ba5c3fa59563dc7ec878db13b8f7e3b99b785397e5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/feature_extraction/get_wan_feature.py",
+    "bytes": 5090,
+    "sha256": "2a896d45087fbf7c2e3a38f7bab72da544eb535e421e9ca1a58581b2e8c02630",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/mem_analysis.py",
+    "bytes": 2141,
+    "sha256": "23b91a37987877bce6c54668e037173a6118cc79e2ad3624adc3114965c7ccb6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/mem_profiler.py",
+    "bytes": 3387,
+    "sha256": "52d1ad39b7d947802061b0ea9914abeb716997e0cf97f227c438dfd2c367eb2d",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/pmcc/pmcc_qwen3vl.py",
+    "bytes": 8170,
+    "sha256": "931db574b19b8b05f16817cf0d1b49dfcfe8dfb5e95c5e9d24e33d3f3a858a50",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/profiler.py",
+    "bytes": 7267,
+    "sha256": "515ed36d2b047c6d2c4a6c57608d6d8a064c04f3a9d538ef6ac93a7a6683ca2a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/tools/tools.json",
+    "bytes": 962,
+    "sha256": "57bf4deab91282198c1b468baf044dd4ca9ffe7fb2e026bb51336925b032f11a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/training.py",
+    "bytes": 44816,
+    "sha256": "c7237114b3555bfd494b51dc2fd288aeabfc5d76485f5213bedcc9bc5363cd8c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/async_offload.py",
+    "bytes": 9354,
+    "sha256": "dcccf808566bc38c9240a22bbd413d63d9f6db3050f784478636ce1fa64097b7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/auto_setting.py",
+    "bytes": 6211,
+    "sha256": "8a5e6addc266ab70cac88a4f7024123878e2176328ffc2257537116e3924a608",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/aux_loss.py",
+    "bytes": 4511,
+    "sha256": "b1fb37402127f2c1b8f83d33a1a131a96d144d5710ee5561d2f16be6df94752e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/data_balance/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/data_balance/balance_sorting_algo.py",
+    "bytes": 3627,
+    "sha256": "d8afcf8d2e513109028bb31b424f843585c66b9ee6ba607c0883388c67a6f5fb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/data_balance/batch_generator.py",
+    "bytes": 1766,
+    "sha256": "9fa3f6a1f75abf52eec6fa3b6180c5904748a7e6a1855fbb13a02063b0d219e5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/data_balance/data_balance.py",
+    "bytes": 21761,
+    "sha256": "b7bcfc8464a961a86267fbd4b670ec25999ae9540c2c034379b288b6bc8a46aa",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/dpcp_utils.py",
+    "bytes": 11857,
+    "sha256": "d6c48411c193cfdec70fcb7eaa1b02cd7a0bdb19400d2f19432240f1d28a7c5c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/ema.py",
+    "bytes": 1030,
+    "sha256": "fef4383be37ed4ddb025d39ff498e22f12ee9beffc648c4a0b777bf2abb00ba7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/cogvideox_i2v_processor.py",
+    "bytes": 1930,
+    "sha256": "8a94473b35d9cf396c878213d745dd7a96c936c654743fb5810c78850a7b8d30",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/hunyuanvideo_15_i2v_processor.py",
+    "bytes": 10712,
+    "sha256": "05896148d966ebb2fdafa5ad1201efede9837596c9aeb2e539702fd39558cec3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/hunyuanvideo_i2v_processor.py",
+    "bytes": 3685,
+    "sha256": "d70aba69bbc5627cfec2d997218dd7cc729a89ffec1923f8a781c7634279b320",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/i2v_processors.py",
+    "bytes": 1307,
+    "sha256": "39b0d5c105316aa4b8d721127fb99d1977097e3c52525bcf4027e47d9add0fa9",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/opensoraplan_i2v_processor.py",
+    "bytes": 962,
+    "sha256": "9beeb1b576ab950eec6215ba87c6e5b8696fd3cab3b3ba4b756fe3c5b5da7e9f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/stepvideo_i2v_processor.py",
+    "bytes": 1132,
+    "sha256": "23e169da409fab43c401bfc1beaa020dcd14684efdba68e5b2cb1dee96b2f34e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/wan_i2v_processor.py",
+    "bytes": 3776,
+    "sha256": "7a29bb62b4c638d10e142bd8b357f7852c72ad9a50bd2d516e5c66ba886f13c7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/extra_processor/wan_ti2v_processor.py",
+    "bytes": 1006,
+    "sha256": "6bf1aa6c3e79c10807e38797cbad307f4479aa35962e0f4fdb4afadc4f869816",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/hetero_parallel.py",
+    "bytes": 14880,
+    "sha256": "f14b3cf5649644d509aacaabc35480b237d4eb9f2dd087ffa70c02c75dd2fe27",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/hetero_utils/hetero_CP_utils.py",
+    "bytes": 5230,
+    "sha256": "d5859f2244434821998e9f5408c451b76781a6b48b056fef41e01944e376b43f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/mask_utils.py",
+    "bytes": 6540,
+    "sha256": "1fbb117ecc7c44f99c692eaa24dd62ff585afa1f7a0708545cb09c9a7762de2c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/random.py",
+    "bytes": 1060,
+    "sha256": "f6484b8a28b49be16db4df5bc312c8874903088f231776d314683ad5319d249a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/security_utils/input_filter.py",
+    "bytes": 798,
+    "sha256": "910b8337a79965f92beb85dc816d6d30d81c50f055c341adb5827d0f673f2a92",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/security_utils/validate_path.py",
+    "bytes": 1592,
+    "sha256": "5cbad84c565e15e40b56c4c6e1a87e68cd73c4293dd6d04a9379698211e2f300",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/transformer_model_config.py",
+    "bytes": 5055,
+    "sha256": "b0e538311e52a3c3817ac69b2612b6c25a7c2a7859dc6ad75aefd4734d074bbb",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/utils/utils.py",
+    "bytes": 32655,
+    "sha256": "1ad70a021a124927dd2daa2bd8c942eedd0a32544439e4370e9e8315970b4bfc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/pre-commit/bandit.yaml",
+    "bytes": 4495,
+    "sha256": "4278652ce32668a7636e9cd005e88faeccd775a2af881333d1e00d4c764e7592",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/pre-commit/pyproject.toml",
+    "bytes": 2637,
+    "sha256": "3a379147b182eedbb54743b46fbbf39a127b6150a29ab436a91ecd317494e75e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/pre-commit/typos.toml",
+    "bytes": 3424,
+    "sha256": "80d35887037d369beaf349877ea939585835f14b1beaa4cf6fe2dfb22409241b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/pyproject.toml",
+    "bytes": 1621,
+    "sha256": "7a83a85b6237cf958575af8ff9783592441164180bb93f8fb1cc270079abae27",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/scripts/install.sh",
+    "bytes": 20335,
+    "sha256": "352e3e422fb0ff2161e8884de9933f3fe119f298e642a3ff5a1511664bde561a",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/scripts/install_cann.sh",
+    "bytes": 10275,
+    "sha256": "3c1fe875764f05d9b29003ae101c7a162f6fa560aace03bdd4cd496292c052bc",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/scripts/replace_ascend_path.py",
+    "bytes": 5453,
+    "sha256": "5031bbeec58b787f4ae9a7a84343d65333eaefe74a91ab1107e3ce9540c1980e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/MM_wechat_qrcode.jpg",
+    "bytes": 151431,
+    "sha256": "b454247a96ea911702fa6e313ee5f9ce99fcd6d2cd24d6eb0d51107e7691e7fe",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/architecture_mindspeed_mm.png",
+    "bytes": 129958,
+    "sha256": "4d8f2c55f97fbf189d395c5d23f41746b9d58a1c92cd8c47ae2dbaa8c1522ee3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/auto_parallel_mm/auto_parallel_mm_1.png",
+    "bytes": 106292,
+    "sha256": "deb3fd30519662d0afa70205b65131c465ddfd4520ff0992378b39226dfb0de5",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/auto_parallel_mm/auto_parallel_mm_2.png",
+    "bytes": 176431,
+    "sha256": "7ac70fa5eb0633a8ae18a0eca9c561ed7af63faf1f8e0db6eee2edcda44eaf87",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/canonical_model/img.png",
+    "bytes": 258469,
+    "sha256": "65399a93589e2df32e12d18ef90e1b28449ff43557212a72c250842966a1f213",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/canonical_model/img_1.png",
+    "bytes": 574140,
+    "sha256": "83888d60066e9d9cc32a8216b1d7b6a915505449d9182e3213a08eeeca880318",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/chunkmbs.png",
+    "bytes": 170025,
+    "sha256": "06c780793c1d87254b5f3d9c857caf0fc7281141b7989f38b2fe8a265f510627",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/config/arguments.png",
+    "bytes": 85263,
+    "sha256": "97e6f80fe7fbcafc32296d3ba23d164ed084cfed1ae04cc52e6205c28a6b25df",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/config/user_guide.png",
+    "bytes": 50113,
+    "sha256": "56c6ea7d66a50118fefce8dbbccdfbae44a18b464e708c50045fb25c00b3f8d3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/encoder_dp_balance/encoder_dp_balance.png",
+    "bytes": 217805,
+    "sha256": "4c707a3732847593c387a529ad71c41f81bba8407b7bc07bb65a494b05c464d6",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/flux_kontext.png",
+    "bytes": 1075052,
+    "sha256": "f91aba74f4cfa8611716107dd4b7d058e242393940696e3b59394f282a692649",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/introdution01.png",
+    "bytes": 40686,
+    "sha256": "5271ab1f412bc844eb3f212d58bbac7bbb8e0d3acd54f9d9e46941aff2918097",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/introdution_1.png",
+    "bytes": 86424,
+    "sha256": "739948fdfabaeece93a849986c7544acc9a8f8ab84b180cccd6df0d73063c6d4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/introdution_2.png",
+    "bytes": 129958,
+    "sha256": "4d8f2c55f97fbf189d395c5d23f41746b9d58a1c92cd8c47ae2dbaa8c1522ee3",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/layerwise_disaggregated_training/layerwise_disaggregated_training.png",
+    "bytes": 121408,
+    "sha256": "42ff3abffaf18e00f89e9514fe6fa9bb2ea0ad74d749b5e9c7050c095467f4c8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/layerwise_disaggregated_training/ldt_dp.png",
+    "bytes": 24396,
+    "sha256": "6c4dae2832b58e2b59fc444ce821c4f167bae4929a1012e47e92869a650b4381",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/layerwise_disaggregated_training/ldt_tp.png",
+    "bytes": 28269,
+    "sha256": "122bec0054b94f8a7898dabf9b4e242ae8131cb388d73f6bc23bc101f568a91b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/layerwise_disaggregated_training/ldt_vdp.png",
+    "bytes": 29804,
+    "sha256": "4116093144bdaf0229640d806aa82acdaa840e51dce6f0baa6be6982e24b639b",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/layerwise_disaggregated_training/ldt_vdp_gen_ranks.png",
+    "bytes": 52312,
+    "sha256": "f5d8ab988946814164f4731ba0d21495b7d1f9bbe20f2dd3d8b9f14b22d1f794",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/layerwise_disaggregated_training/ldt_vtp.png",
+    "bytes": 58699,
+    "sha256": "12d88b4a93f9ffb24cb375a9777c5f88a40e4c56a1461897cb0433ab5ef9b8f7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/layerwise_disaggregated_training/pipeline_chart.png",
+    "bytes": 112265,
+    "sha256": "12768839877d9a41c00b047dbf87be2c97bc989a6e312addf8a30bb1f34fbefe",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/lora_finetune/lora_model.png",
+    "bytes": 44822,
+    "sha256": "2a3cb581ed219706186d3758dafeae3b9bb3de2224202605649ecd308273ccbd",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/migration_guide/migration_process1.png",
+    "bytes": 181513,
+    "sha256": "7e4afbd022bde46471fb9e40c1c362f7a728a4cf502cc21fb9c894c4cad97f60",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/migration_guide/migration_process2.png",
+    "bytes": 92263,
+    "sha256": "ea555b5214a199dac2929d4526ec9c2468b34db3decaae490fd7ef0fc3be6daa",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/migration_guide/mm-arch.png",
+    "bytes": 727778,
+    "sha256": "63a022c5a2d1de55e6a7dd7e9e13b63c151433ab82c90f82232cffe4703933a4",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/mm_logo.png",
+    "bytes": 31554,
+    "sha256": "a8fcd7a32ac1f92b3cb04084dedaa47cb66e8b8b90eceb176d7b5eba3f663821",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/qwen_image.png",
+    "bytes": 1487602,
+    "sha256": "a4e9eb745d444acd3243c3ebe9a75a73d63263c21b20918e44e1c6992e22fb65",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/sp.png",
+    "bytes": 423706,
+    "sha256": "38cb994e4257a9d63c4b8c99cc76608ae4cc822ac0f54fc56a1246c741cb97a8",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/ulysses.png",
+    "bytes": 184628,
+    "sha256": "4b533dfd06aadb4722c2a2d3845c028b0262d095c3a114ca2c398b9f4b5726c7",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/view.jpg",
+    "bytes": 95499,
+    "sha256": "d092764cc9f21b9bc535ff5284b5add4d8256148bab1bc2f5b5ab3fd32759a36",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/virtual_pipeline_parallel/virtual_pipeline.png",
+    "bytes": 116627,
+    "sha256": "d0d9320d3d82144586f1f4c0e353cf835f68972c56cdb3b45c2940708603a289",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/vlm_model_loss_calculate_type/default.png",
+    "bytes": 687385,
+    "sha256": "f0806bbe1f88920fb9ddb6653d55443ed650eaa98ed80c75a167df6cc679e652",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/vlm_model_loss_calculate_type/sample_level.png",
+    "bytes": 789244,
+    "sha256": "3a3b59435b89dafbfb98beeeee7d0ddef0feb9aef4a68459a0c1a93f41b9918f",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/vlm_model_loss_calculate_type/token_level.png",
+    "bytes": 937287,
+    "sha256": "d551bf484213cdaa88183e4a01ed1f6f1d05bf096935b99fd9bdfe0ab3e3b2d0",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/images/wechat_ascend_assistant.jpg",
+    "bytes": 169605,
+    "sha256": "11aafcd8a4b2eb984bd31628eda6995d92b838e94ade1f3bd949ec69a6023c2c",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/videos/video_osp15mini_1.gif",
+    "bytes": 3330650,
+    "sha256": "46c20e73b8675d423466f989380e30c44cf7e6b9c73687edc74874ba92d00c4e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/videos/video_osp15mini_2.gif",
+    "bytes": 2829118,
+    "sha256": "6139224dc737f0ce8d835b2aa79492d17e3758f7f76b59b3c631fcb85ffeec7e",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/sources/videos/video_wan_T2V.gif",
+    "bytes": 4725030,
+    "sha256": "9e5aa17ba64656d7fd2bc75f25d2dd4fd8c066efee8fb944ad9d82f67a329b95",
+    "origin": "local_reference_or_support_file"
+  },
+  {
+    "path": "verified_run/original_sources/scripts/prepare_mindspeed_qwen35_config.py",
+    "bytes": 6272,
+    "sha256": "7e764758808d2b2b8200fca4fc498c2f40642473f1703d9b9fc8e8ce37b6e2ba",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "verified_run/original_sources/scripts/run_mindspeed_qwen35.sh",
+    "bytes": 3942,
+    "sha256": "73c87a56d225213395092dca0fdce0d4b3823edb9acbc9c6cb788b3d44216bfe",
+    "origin": "cloud_backup_20260925_085334"
+  },
+  {
+    "path": "verified_run/successful_run.yaml",
+    "bytes": 3345,
+    "sha256": "0fbec81eb0eaaebb86bc430fa8ec3b2dc6acff338356ffa7539fe39267369cf7",
+    "origin": "cloud_successful_run_evidence"
+  }
+]

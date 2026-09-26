@@ -1,0 +1,17 @@
+{
+  "source_archive": "MindSpeed-MM.zip",
+  "source_archive_sha256": "6673bb820225f4aad6681e36ea3bdd15e53f8f5004835633e4f6e8325aa75a52",
+  "extracted_on": "2026-07-22",
+  "archive_role": "competition_reference_snapshot",
+  "contains_model_weights": false,
+  "contains_reference_training_log": true,
+  "reference_log": "third_party/MindSpeed-MM/logs/qwen35_0.8B_20260608_110844.log",
+  "reference_log_ownership": "official_reference_sample_not_project_runtime_evidence",
+  "observed_gap": "mindspeed_mm/fsdp/models/qwen3_5 was empty in the source archive",
+  "project_overlay": "A minimal Transformers 5.2.0 class registration adapter was added without changing the official YAML or reference log.",
+  "transformers_wheel": {
+    "version": "5.2.0",
+    "sha256": "9ecaf243dc45bee11a7d93f8caf03746accc0cb069181bbf4ad8566c53e854b4"
+  },
+  "truthfulness_boundary": "This snapshot and its reference log do not prove that the project has completed an Ascend NPU run."
+}

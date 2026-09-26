@@ -1,0 +1,126 @@
+--- local/scripts/check_mindspeed_qwen35_bundle.py
++++ cloud/scripts/check_mindspeed_qwen35_bundle.py
+@@ -20,7 +20,7 @@
+ DEFAULT_OUTPUT = ROOT / "results/ascend_qwen35/environment/preflight.json"
+ REQUIRED_TRANSFORMERS_VERSION = "5.2.0"
+ REQUIRED_ACCELERATE_VERSION = "1.2.0"
+-REQUIRED_TRITON_ASCEND_VERSION = "3.2.0"
++REQUIRED_TRITON_ASCEND_VERSION = "3.2.1"
+ REQUIRED_TORCH_PREFIX = "2.7.1"
+ 
+ 
+--- local/scripts/prepare_mindspeed_qwen35_config.py
++++ cloud/scripts/prepare_mindspeed_qwen35_config.py
+@@ -39,17 +39,13 @@
+     train_iters: int,
+     num_workers: int,
+     save_dir: Path | None,
+-    preprocessing_num_workers: int = 1,
+ ) -> dict[str, Any]:
+-    if num_workers < 0 or preprocessing_num_workers < 1:
+-        raise ValueError("Invalid data loading or preprocessing worker count")
+     config = deepcopy(template)
+     dataset = config["data"]["dataset_param"]
+     dataset["preprocess_parameters"]["model_name_or_path"] = str(hf_model_dir)
+     dataset["basic_parameters"]["dataset_dir"] = str(dataset_file.parent)
+     dataset["basic_parameters"]["dataset"] = str(dataset_file.resolve())
+     dataset["basic_parameters"]["cache_dir"] = str(cache_dir)
+-    dataset["basic_parameters"]["preprocessing_num_workers"] = preprocessing_num_workers
+     config["data"]["dataloader_param"]["num_workers"] = num_workers
+     config["model"]["model_name_or_path"] = str(hf_model_dir)
+     config["training"]["load"] = str(dcp_dir)
+@@ -74,8 +70,6 @@
+         "precision": config.get("parallel", {}).get("fsdp_plan", {}).get("param_dtype"),
+         "template": config["data"]["dataset_param"]["basic_parameters"].get("template"),
+         "cutoff_len": config["data"]["dataset_param"]["basic_parameters"].get("cutoff_len"),
+-        "num_workers": config["data"]["dataloader_param"]["num_workers"],
+-        "preprocessing_num_workers": config["data"]["dataset_param"]["basic_parameters"]["preprocessing_num_workers"],
+     }
+ 
+ 
+@@ -88,8 +82,7 @@
+     parser.add_argument("--cache-dir", default="results/ascend_qwen35/cache")
+     parser.add_argument("--save-dir")
+     parser.add_argument("--train-iters", type=int, default=100)
+-    parser.add_argument("--num-workers", type=int, default=0)
+-    parser.add_argument("--preprocessing-num-workers", type=int, default=1)
++    parser.add_argument("--num-workers", type=int, default=8)
+     parser.add_argument("--output", default=str(DEFAULT_OUTPUT))
+     parser.add_argument("--metadata-output")
+     parser.add_argument("--allow-short-smoke", action="store_true")
+@@ -101,8 +94,6 @@
+         parser.error("--train-iters must be positive")
+     if args.num_workers < 0:
+         parser.error("--num-workers cannot be negative")
+-    if args.preprocessing_num_workers < 1:
+-        parser.error("--preprocessing-num-workers must be positive")
+ 
+     template_path = resolved_path(args.template)
+     hf_model_dir = resolved_path(args.hf_model_dir)
+@@ -134,7 +125,6 @@
+         train_iters=args.train_iters,
+         num_workers=args.num_workers,
+         save_dir=save_dir,
+-        preprocessing_num_workers=args.preprocessing_num_workers,
+     )
+     output.parent.mkdir(parents=True, exist_ok=True)
+     cache_dir.mkdir(parents=True, exist_ok=True)
+--- local/scripts/run_mindspeed_qwen35.sh
++++ cloud/scripts/run_mindspeed_qwen35.sh
+@@ -10,9 +10,6 @@
+ ASCEND_DEVICE_ID="${ASCEND_DEVICE_ID:-0}"
+ RUN_ID="${RUN_ID:-qwen35_0.8B_$(date +%Y%m%d_%H%M%S)}"
+ RESULT_DIR="${RESULT_DIR:-$ROOT/results/ascend_qwen35/runs/$RUN_ID}"
+-RESULT_DIR="$("$PYTHON_BIN" -c 'import os,sys; print(os.path.abspath(sys.argv[1]))' "$RESULT_DIR")"
+-MINDSPEED_MM_ROOT="$("$PYTHON_BIN" -c 'import os,sys; print(os.path.abspath(sys.argv[1]))' "$MINDSPEED_MM_ROOT")"
+-PYTHON_BIN="$("$PYTHON_BIN" -c 'import sys; print(sys.executable)')"
+ 
+ : "${QWEN35_HF_DIR:?Set QWEN35_HF_DIR to the downloaded Qwen3.5-0.8B Hugging Face weight directory}"
+ : "${QWEN35_DCP_DIR:?Set QWEN35_DCP_DIR to the converted DCP checkpoint directory}"
+@@ -24,9 +21,7 @@
+ fi
+ 
+ # shellcheck disable=SC1090
+-set +u
+ source "$CANN_ENV"
+-set -u
+ export ASCEND_DEVICE_ID
+ export ASCEND_RT_VISIBLE_DEVICES="${ASCEND_RT_VISIBLE_DEVICES:-$ASCEND_DEVICE_ID}"
+ export NON_MEGATRON=true
+@@ -37,10 +32,6 @@
+ export CPU_AFFINITY_CONF="${CPU_AFFINITY_CONF:-1}"
+ export PYTORCH_NPU_ALLOC_CONF="${PYTORCH_NPU_ALLOC_CONF:-expandable_segments:True}"
+ 
+-if [[ -e "$RESULT_DIR/train.log" || -e "$RESULT_DIR/qwen3_5_0.8B_run.yaml" ]]; then
+-  printf 'Existing run directory; choose a new RUN_ID or RESULT_DIR: %s\n' "$RESULT_DIR" >&2
+-  exit 2
+-fi
+ mkdir -p "$RESULT_DIR" "$RESULT_DIR/cache" "$RESULT_DIR/checkpoints"
+ CONFIG_PATH="$RESULT_DIR/qwen3_5_0.8B_run.yaml"
+ TRAIN_LOG="$RESULT_DIR/train.log"
+@@ -56,15 +47,13 @@
+ 
+ printf '[2/5] Render the immutable 100-step validation contract with server paths\n'
+ "$PYTHON_BIN" "$ROOT/scripts/prepare_mindspeed_qwen35_config.py" \
+-  --template "$MINDSPEED_MM_ROOT/examples/qwen3_5/qwen3_5_0.8B_config.yaml" \
+   --hf-model-dir "$QWEN35_HF_DIR" \
+   --dcp-dir "$QWEN35_DCP_DIR" \
+   --dataset "$QWEN35_DATASET" \
+   --cache-dir "$RESULT_DIR/cache" \
+   --save-dir "$RESULT_DIR/checkpoints" \
+   --train-iters 100 \
+-  --num-workers "${QWEN35_NUM_WORKERS:-0}" \
+-  --preprocessing-num-workers "${QWEN35_PREPROCESSING_NUM_WORKERS:-1}" \
++  --num-workers "${QWEN35_NUM_WORKERS:-8}" \
+   --output "$CONFIG_PATH" \
+   --metadata-output "$RESULT_DIR/config_metadata.json" \
+   2>&1 | tee "$RESULT_DIR/config_generation.log"
+@@ -98,7 +87,7 @@
+ cd "$ROOT"
+ "$PYTHON_BIN" scripts/analyze_qwen35_training_log.py \
+   "$TRAIN_LOG" \
+-  --reference-log "$MINDSPEED_MM_ROOT/logs/qwen35_0.8B_20260608_110844.log" \
++  --reference-log third_party/MindSpeed-MM/logs/qwen35_0.8B_20260608_110844.log \
+   --start-step 50 \
+   --end-step 100 \
+   --relative-tolerance 0.02 \
