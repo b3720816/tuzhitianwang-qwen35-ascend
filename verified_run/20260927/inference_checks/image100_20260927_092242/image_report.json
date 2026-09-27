@@ -1,0 +1,24 @@
+{
+  "scope": "training-sample image smoke test; not held-out accuracy",
+  "checkpoint": "/workspace/tuzhitianwang/qwen35_ascend_server_bundle/results/ascend_qwen35/runs/hf_init_full_20260927_081557/checkpoints/iter_0000100",
+  "image": "/workspace/tuzhitianwang/data/official_coco/extracted/dataset/COCO2017/train2017/000000033471.jpg",
+  "question": "What are the colors of the bus in the image?",
+  "reference_answer": "The bus in the image is white and red.",
+  "answer": "The bus in the image is white.\n",
+  "generated_token_ids": [
+    760,
+    5647,
+    303,
+    279,
+    2099,
+    369,
+    4022,
+    13,
+    248046,
+    198,
+    248044
+  ],
+  "device": "npu:0",
+  "checkpoint_weights_strictly_loaded": true,
+  "nonempty_output": true
+}
