@@ -21,7 +21,9 @@ def parser():
 
 def build_plan(args):
     paths = {key: getattr(args, key).expanduser().resolve() for key in
-             ('bundle', 'python', 'hf_model', 'dataset', 'cann_env', 'output')}
+             ('bundle', 'hf_model', 'dataset', 'cann_env', 'output')}
+    # Resolving the executable symlink bypasses the selected virtual environment.
+    paths['python'] = Path(os.path.abspath(args.python.expanduser()))
     for key in ('bundle', 'hf_model'):
         if not paths[key].is_dir():
             raise ValueError('Missing directory: ' + str(paths[key]))

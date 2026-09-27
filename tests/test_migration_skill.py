@@ -1,8 +1,10 @@
 import importlib.util
 import json
+import os
 import sys
 import tempfile
 import unittest
+import venv
 from pathlib import Path
 
 SCRIPT = Path(__file__).resolve().parents[1] / 'skills/qwen35-ascend-migrate/scripts/migrate.py'
@@ -37,6 +39,31 @@ class MigrationSkillTests(unittest.TestCase):
         (self.root / 'hf/config.json').unlink()
         with self.assertRaises(ValueError):
             migrate.build_plan(self.args)
+
+    def test_symlink_interpreter_preserved_for_both_stages(self):
+        python = self.root / 'venv/bin/python'
+        python.parent.mkdir(parents=True)
+        python.symlink_to(sys.executable)
+        self.args.python = Path(os.path.relpath(python))
+        self.args.verified_config = self.root / 'train100.yaml'
+        self.args.verified_config.touch()
+        for stage in ('preflight', 'train'):
+            with self.subTest(stage=stage):
+                self.args.stage = stage
+                plan = migrate.build_plan(self.args)
+                self.assertEqual(plan['environment']['PYTHON_BIN'], str(python))
+                self.assertEqual(plan['command'][5], str(python))
+
+    def test_preflight_runs_in_selected_virtual_environment(self):
+        directory = self.root / 'selected-venv'
+        venv.EnvBuilder(with_pip=False, symlinks=True).create(directory)
+        self.args.python = directory / 'bin/python'
+        checker = self.root / 'bundle/scripts/check_mindspeed_qwen35_bundle.py'
+        checker.write_text('import sys\nprint(sys.prefix)\n')
+        plan = migrate.build_plan(self.args)
+        self.assertEqual(migrate.execute(plan), 0)
+        prefix = (self.args.output / 'skill_console.log').read_text().strip()
+        self.assertEqual(Path(prefix).resolve(), directory.resolve())
 
     def test_training_uses_hf_runner_without_dcp(self):
         self.args.stage = 'train'

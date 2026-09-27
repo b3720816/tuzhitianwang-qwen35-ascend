@@ -43,9 +43,9 @@
   },
   {
     "path": "skills/qwen35-ascend-migrate/scripts/migrate.py",
-    "bytes": 5334,
-    "sha256": "e39fe24c3ad9624e69ab3a980ee25859f68e2edff64b7eda97f88dfb01c81d54",
-    "origin": "local_helpers_not_new_cloud_run"
+    "bytes": 5476,
+    "sha256": "ef562dc625e956bf2abb473294e6052e5a032a88622376cd66a400abb5c795b1",
+    "origin": "local_review_fix_not_cloud_rerun"
   },
   {
     "path": "skills/qwen35-ascend-migrate/scripts/run_hf_training.py",
@@ -73,9 +73,9 @@
   },
   {
     "path": "tests/test_migration_skill.py",
-    "bytes": 3609,
-    "sha256": "170f4ca2bb99b88af1ed77705390f0598de6d1edbec3b10b7a98ab0fce154691",
-    "origin": "local_tests_or_documentation"
+    "bytes": 4948,
+    "sha256": "cb01b61e4bfe975ed1de9ace14ebd6c81ab14268bfeb703b5a38e65a77d5f9c9",
+    "origin": "local_review_fix_not_cloud_rerun"
   },
   {
     "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/fully_shard_parallel.py",
