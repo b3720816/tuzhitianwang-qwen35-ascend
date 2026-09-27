@@ -140,6 +140,9 @@ def configure_hsdp_gradient_sync(model, is_last_step: bool):
         model: The model wrapped with fully_shard (FSDP2).
         is_last_step (bool): Whether the current step is the last in the gradient accumulation cycle.
     """
+    if isinstance(model, torch.nn.parallel.DistributedDataParallel):
+        model.require_backward_grad_sync = is_last_step
+        return
     model.set_is_last_backward(is_last_step)
     model.set_requires_all_reduce(is_last_step)
 

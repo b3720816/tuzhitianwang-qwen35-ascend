@@ -1,0 +1,158 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 6142,
+    "sha256": "b61871054ec930fd7f4e9cdb895262ca9d67ba59e331a68bfea162a49e11ec17",
+    "origin": "local_documentation"
+  },
+  {
+    "path": "docs/提交前验收_20260927.md",
+    "bytes": 4272,
+    "sha256": "09b87cb4c989e63fec7865339785763e82d5f09a341a2e805e1372eed3231acd",
+    "origin": "local_tests_or_documentation"
+  },
+  {
+    "path": "historical/README_before_hf_update.md",
+    "bytes": 2079,
+    "sha256": "517d779596ae2abdda7b3875929052c1771f47a66765f036cf662975fdd4d557",
+    "origin": "local_documentation"
+  },
+  {
+    "path": "output/qwen35_compare20_review_20260927.md",
+    "bytes": 6095,
+    "sha256": "7db8524b36a623945d686189d33f4a139062992f381e659deb1fc674f047899c",
+    "origin": "local_tests_or_documentation"
+  },
+  {
+    "path": "scripts/compare_qwen35_images.py",
+    "bytes": 5045,
+    "sha256": "d0f84edd09a5a43fc43221bd193213ca3e1052848134ba3e97c3dbf6ccc9c5b2",
+    "origin": "local_tests_or_documentation"
+  },
+  {
+    "path": "skills/qwen35-ascend-migrate/SKILL.md",
+    "bytes": 3531,
+    "sha256": "e6cd891c596322ad90868136f94f7bd94168bfe2babbe0c3c4d7b42c8c77b1db",
+    "origin": "local_helpers_not_new_cloud_run"
+  },
+  {
+    "path": "skills/qwen35-ascend-migrate/scripts/check_training_initialization.py",
+    "bytes": 6660,
+    "sha256": "8093137b1e7cacaebb437e5f39a297f088ce99c3fc9bd4558cf0a7e461dab513",
+    "origin": "local_helpers_not_new_cloud_run"
+  },
+  {
+    "path": "skills/qwen35-ascend-migrate/scripts/migrate.py",
+    "bytes": 5334,
+    "sha256": "e39fe24c3ad9624e69ab3a980ee25859f68e2edff64b7eda97f88dfb01c81d54",
+    "origin": "local_helpers_not_new_cloud_run"
+  },
+  {
+    "path": "skills/qwen35-ascend-migrate/scripts/run_hf_training.py",
+    "bytes": 3877,
+    "sha256": "df8cb03daa68c5644a71525ec8a21d7e41f6bb1734eca72a3041ae027464be91",
+    "origin": "local_helpers_not_new_cloud_run"
+  },
+  {
+    "path": "skills/qwen35-ascend-migrate/scripts/verify_inference.py",
+    "bytes": 7768,
+    "sha256": "9086269d08334e09b1e0e8ed30a66d54fead09db2e3d828e51309794c912faf8",
+    "origin": "local_helpers_not_new_cloud_run"
+  },
+  {
+    "path": "tests/test_ddp_gradient_sync.py",
+    "bytes": 1567,
+    "sha256": "44af3804bcd1b4e7ce9131302761080eb5c6d8bca07b7678bb225c01550ef035",
+    "origin": "local_tests_or_documentation"
+  },
+  {
+    "path": "tests/test_hf_training_runner.py",
+    "bytes": 1619,
+    "sha256": "7935590c9cecbd7589663e8b86bff39998b3fca742977752a6a51aa54d9ce5e4",
+    "origin": "local_tests_or_documentation"
+  },
+  {
+    "path": "tests/test_migration_skill.py",
+    "bytes": 3609,
+    "sha256": "170f4ca2bb99b88af1ed77705390f0598de6d1edbec3b10b7a98ab0fce154691",
+    "origin": "local_tests_or_documentation"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/distributed/fully_shard_parallel.py",
+    "bytes": 23877,
+    "sha256": "7e5d377fd30e6339892cb538e2936fe603df123b82c659e1fb5ab3c3905cb390",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/models/modelhub.py",
+    "bytes": 6721,
+    "sha256": "77e32f2fe3ab9eb73415cec5b24d5e85a464f52d88e60d2ccd87533b1bd4c551",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "third_party/MindSpeed-MM/mindspeed_mm/fsdp/utils/utils.py",
+    "bytes": 7321,
+    "sha256": "4f4ecfb80d2e3c47d19e98a4fae78002cd875d89f27104ad95f9dc3a8281b5c3",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "verified_run/20260927/inference_checks/compare20_20260927_101038/console.log",
+    "bytes": 158126,
+    "sha256": "0e353bd5f29812811a491079c675267e78f4a58acd64b29bce25e5d42dbd9731",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "verified_run/20260927/inference_checks/compare20_20260927_101038/report/comparison.json",
+    "bytes": 60795,
+    "sha256": "915f0a70cb4e5a44e5437fd1f9c86a1997c2567cc9bed3816c3b5b49fb6961f2",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "verified_run/20260927/inference_checks/full100_20260927_091036/inference_report.json",
+    "bytes": 8403,
+    "sha256": "85f0f61844f3c463f85e9a7e591855bd760132f15b34889c5f8e9474b6d2bae8",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "verified_run/20260927/inference_checks/image100_20260927_092242/image_report.json",
+    "bytes": 744,
+    "sha256": "31158062d70dc151e98dd73b0a0358dfd7bdcdc46a19bdfe6eeb91fb1c950884",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "verified_run/20260927/inference_checks/image_base_20260927_094011/comparison.json",
+    "bytes": 1943,
+    "sha256": "1f78b29dd21597627faf4ff5d1de71b1db2637b0fa78451ca55ce5fa0771efa4",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "verified_run/20260927/performance/performance.json",
+    "bytes": 2122,
+    "sha256": "8cc6c652627c08e52b9b477607e61b4c67abdc97263b3994552fb51db1a216f1",
+    "origin": "local_statistics_from_verified_train_log"
+  },
+  {
+    "path": "verified_run/20260927/performance/steps.csv",
+    "bytes": 3439,
+    "sha256": "10fbf3b98d8cc3229ed6068fd9f943c45d2c9df94c46d4c727b69e4aaa6c76d6",
+    "origin": "local_statistics_from_verified_train_log"
+  },
+  {
+    "path": "verified_run/20260927/performance/性能统计说明.md",
+    "bytes": 2293,
+    "sha256": "b5a9ef0380392c442120cc0f0e917929fbef856c7b642c3dcc94b44cd23604d9",
+    "origin": "local_statistics_from_verified_train_log"
+  },
+  {
+    "path": "verified_run/20260927/qwen35_ascend_server_bundle/results/ascend_qwen35/runs/hf_init_full_20260927_081557/train.log",
+    "bytes": 208689,
+    "sha256": "1d56aeebe09f0549f4065e739651135176aa72ae54f205e213ee196ca5517a91",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  },
+  {
+    "path": "verified_run/20260927/qwen35_ascend_server_bundle/results/ascend_qwen35/runs/hf_init_full_20260927_081557/train100.yaml",
+    "bytes": 3338,
+    "sha256": "cd44ba59e7e22e152668eae6ea318b8c80013d4ccc31029e59f4d667c6c7bf9a",
+    "origin": "verified_cloud_evidence_20260927_104517"
+  }
+]
